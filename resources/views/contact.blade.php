@@ -6,11 +6,11 @@
 
 
 <section id="contact">
-      <div class="section-content">
-        <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+  <div class="section-content">
+    <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
         <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
-      </div>
-      <div class="contact-section">
+  </div>
+    <div class="contact-section">
       <div class="container">
         <form>
           <div class="col-md-6 form-line">
