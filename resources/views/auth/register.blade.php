@@ -2,7 +2,7 @@
 
 @section('content')
   
-<section>
+<section class="section-login">
 <div class="center-container">
 
   <!--header-->
