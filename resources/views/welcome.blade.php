@@ -678,20 +678,7 @@
 
     <div class="clearfix"> </div>
   </div>
-  <!-- /newsletter-->
-  <div class="newsletter_w3layouts_agile">
-    <div class="col-sm-6 newsleft">
-      <h3>Sign up for Newsletter !</h3>
-    </div>
-    <div class="col-sm-6 newsright">
-      <form action="#" method="post">
-        <input type="email" placeholder="Enter your email..." name="email" required="">
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-
-    <div class="clearfix"></div>
-  </div>
+  
   <!-- //newsletter-->
   <!-- footer -->
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
