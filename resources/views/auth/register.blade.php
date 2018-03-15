@@ -36,11 +36,6 @@
   </div>
   <!--//main-->
   
-  <!--footer-->
-  <div class="footer">
-    <p>&copy; 2018 Access Subscribe Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-  </div>
-  <!--//footer-->
   
 </div>
   </section>  

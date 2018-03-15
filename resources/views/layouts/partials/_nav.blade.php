@@ -24,7 +24,7 @@
        @if(Auth::guest())
       <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
         <nav class="nav nav-inline">
-          <a href="{{ route('login') }}" class="nav-link"><i class="fa fa-sign-in"></i>Login</a>
+          <a href="{{ route('login') }}" class="nav-link"><i class="fa fa-sign-in" style="width: 16px;"></i>Login</a>
           <a href="{{ route('register') }}" class="nav-link"><i class="far fa-registered"></i> Register</a>
         </nav>       
       </div>
