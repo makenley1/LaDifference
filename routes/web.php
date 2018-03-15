@@ -26,6 +26,10 @@ Route::get('/help', function () {
     return view('help/help');
 });
 
+Route::get('/ouest/best-western-premier', function () {
+    return view('ouest/best-western-premier');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

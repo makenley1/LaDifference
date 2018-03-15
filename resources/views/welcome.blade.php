@@ -228,7 +228,7 @@
                   </div>
                   <div class="item-info-product" style="height: 80px">
                     <h4>
-                      <a href="{{url('port-au-prince/best-western-premier')}}">Best Western </a>
+                      <a href="{{url('ouest/best-western-premier')}}">Best Western </a>
                     </h4>
                     <div class="info-product-price">
                       <div class="grid_meta">

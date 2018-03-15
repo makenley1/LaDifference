@@ -1,13 +1,40 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/contact.css"> -->
+    <link rel="stylesheet" href="../css/shop.css" type="text/css" media="screen" property="" />
+    <link href="../css/style7.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
+    <link href="../css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property="" />
+    <link href="css/style7.css" rel="stylesheet" type="text/css" media="all" />       
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+     
+    <!-- Owl-carousel-CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui1.css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />  
+   
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+        rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+
 
     <script type="application/x-javascript">
     addEventListener("load", function () {
@@ -19,32 +46,13 @@
     }
   </script>
   <!-- //custom-theme -->
- 
- 
-  <link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
- 
-
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-  <link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property="" />
-  <link href="css/style7.css" rel="stylesheet" type="text/css" media="all" />
-  <!-- Owl-carousel-CSS -->
-  <link rel="stylesheet" type="text/css" href="css/contact.css">
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-  <!-- font-awesome-icons -->
-  <link href="css/font-awesome.css" rel="stylesheet">
-  <!-- //font-awesome-icons -->
-  <link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
-      rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
-
-
 
 
 
 
   
     <title>Hello, world!</title>
-
+    
   </head>
 
   <body>   

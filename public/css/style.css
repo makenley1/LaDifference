@@ -8,7 +8,7 @@ a{text-decoration:none;}
 .float-rt{float:right;}/* float right */
 .float-lt{float:left;}/* float left */
 .clear{clear:both;}/* clear float */
-.pos-relative{position:relative;}/* Position Relative */
+.pos-relative{position:relative;} Position Relative 
 .pos-absolute{position:absolute;}/* Position Absolute */
 .vertical-base{ vertical-align:baseline;}/* vertical align baseline */
 .vertical-top{  vertical-align:top;}/* vertical align top */
