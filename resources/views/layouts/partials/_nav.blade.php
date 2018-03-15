@@ -21,10 +21,36 @@
         <h1>Grafreez News<small>Get the latest News</small></h1>
       </div>
        
+       @if(Auth::guest())
       <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
-        <nav class="nav nav-inline"> <a href="#" class="nav-link"><span class="ping"></span><i class="fa fa-envelope-o"></i></a> <a href="#" class="nav-link"><i class="fa fa-bell-o"></i></a> <a href="#" class="nav-link">Bruce Wayne <img class="img-fluid rounded-circle" src="http://grafreez.com/wp-content/temp_demos/river/img/admin-bg.jpg"></a> </nav>
+        <nav class="nav nav-inline">
+          <a href="{{ route('login') }}" class="nav-link"><i class="fa fa-sign-in"></i>Login</a>
+          <a href="{{ route('register') }}" class="nav-link"><i class="far fa-registered"></i> Register</a>
+        </nav>       
       </div>
-    </div>
+
+      @else
+      <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
+        <nav class="nav nav-inline">
+          <a href="#" class="nav-link">
+            <span class="ping"></span> <i class="fa fa-envelope-o"></i>
+          </a>
+          <a href="#" class="nav-link"><i class="fa fa-bell-o"></i> </a>
+
+          <li class="dropdown">
+            <a href="{{ route('login') }}" class="dropdown-toggle" data-toggle="dropdown">
+              <img class="img-fluid rounded-circle" src="uploads/avatars/{{ Auth::user()->avatar }}">{{ Auth::user()->name }}<span class="caret"></span> 
+            </a>
+
+            <ul class="dropdown-menu" style="background-color: currentColor;">
+              <li><a href="{{ url('/profile') }} ">Profil</a></li>
+              <li><a href="{{ url('/logout') }} ">Logout</a></li>
+            </ul>
+          </li>
+        </nav>
+      </div>
+      @endguest
+    </div>                  
   </div>
 </div>
 
