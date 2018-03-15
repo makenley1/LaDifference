@@ -16,7 +16,7 @@ nav.vertical ul li{ display:block;}/* vertical menu */
 nav.horizontal ul li{ display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
-body {
+.section-login {
     text-align: center;
   font-family: 'Montserrat', sans-serif;
     background: url(../images/bg.jpg) no-repeat 0px 0px;
@@ -703,12 +703,7 @@ header{float: left; width:100%}
 
 
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #fff;
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 h1,
 h2,
