@@ -842,6 +842,7 @@ button.shoe-cart:hover {
     margin: 0;
     letter-spacing: 1px;
     font-weight: 600;
+    float: left;
 }
 .single-right-left p{
     color: #000;

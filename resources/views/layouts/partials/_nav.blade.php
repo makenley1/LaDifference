@@ -18,7 +18,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-lg-4">
-        <h1>Grafreez News<small>Get the latest News</small></h1>
+        <h1>MyHotel<small>Phare des Hotel Haitiens</small></h1>
       </div>
        
        @if(Auth::guest())

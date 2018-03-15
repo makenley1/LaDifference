@@ -2,7 +2,8 @@
 
 @section('content')
 	<!-- banner -->
-	<div class="banner_top innerpage" id="home"></div>
+	<div class="banner_top innerpage" id="home">
+			</div>
 
 	<!-- //banner -->
 	<!-- top Products -->
@@ -16,17 +17,17 @@
 							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
 								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
+							<li data-thumb="../images/port-au-prince/bestWestern/107508098.jpg">
+								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508098.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
+							<li data-thumb="../images/port-au-prince/bestWestern/107508094.jpg">
+								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508094.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
+							<li data-thumb="../images/port-au-prince/bestWestern/107508103.jpg">
+								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508103.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
+							<li data-thumb="../images/port-au-prince/bestWestern/107508154.jpg">
+								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508154.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
 							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
 								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
@@ -47,8 +48,8 @@
 			</div>
 			<div class="col-md-8 single-right-left simpleCart_shelfItem">
 				<h3 class="capitalyze">best western premier</h3>
-				<p><span class="item_price">$650</span>
-					<del>$1,199</del>
+				<p><span class="item_price"></span>
+					
 				</p>
 				<div class="rating1">
 					<ul class="stars">
@@ -61,11 +62,7 @@
 				</div>
 				<div class="description">
 					<h5 class="capitalyze">50 angle louverture & geffrard, P&eacute;tionville, Port-au-prince, Haiti </h5>
-					<form action="#" method="post">
-						<input type="text" value="Enter pincode" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter pincode';}"
-						    required="">
-						<input type="submit" value="Check">
-					</form>
+					
 				</div>
 				<div class="color-quality">
 					<div class="color-quality-right">
@@ -81,13 +78,13 @@
 				<div class="occasional">
 					<h5>Types :</h5>
 					<div class="colr ert">
-						<label class="radio"><input type="radio" name="radio" checked=""><i></i>Casual Shoes</label>
+						<label class="radio"><input type="radio" name="radio" checked=""><i></i>Enfant</label>
 					</div>
 					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>Sneakers </label>
+						<label class="radio"><input type="radio" name="radio"><i></i>Enfant </label>
 					</div>
 					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>Formal Shoes</label>
+						<label class="radio"><input type="radio" name="radio"><i></i>Enfant</label>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -98,7 +95,7 @@
 							<input type="hidden" name="add" value="1">
 							<input type="hidden" name="shoe_item" value="Chikku Loafers">
 							<input type="hidden" name="amount" value="405.00">
-							<input type="submit" name="submit" value="Add to cart" class="button add">
+							<input type="submit" name="submit" value="Faire une reservation" class="button add">
 
 							<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 						</form>
@@ -531,7 +528,114 @@ Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéres
 
 		<div class="clearfix"></div>
 	</div>
+	<!-- //newsletter-->
+	<!-- footer -->
+	<div class="footer_agileinfo_w3">
+		<div class="footer_inner_info_w3ls_agileits">
+			<div class="col-md-3 footer-left">
+				<h2><a href="index.html"><span>D</span>owny Shoes </a></h2>
+				<p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+				<ul class="social-nav model-3d-0 footer-social social two">
+					<li>
+						<a href="#" class="facebook">
+							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="twitter">
+							<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="instagram">
+							<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="pinterest">
+							<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-9 footer-right">
+				<div class="sign-grds">
+					<div class="col-md-4 sign-gd">
+						<h4>Our <span>Information</span> </h4>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="404.html">Services</a></li>
+							<li><a href="404.html">Short Codes</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
 
+					<div class="col-md-5 sign-gd-two">
+						<h4>Store <span>Information</span></h4>
+						<div class="address">
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Phone Number</h6>
+									<p>+1 234 567 8901</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Email Address</h6>
+									<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="address-grid">
+								<div class="address-left">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+								</div>
+								<div class="address-right">
+									<h6>Location</h6>
+									<p>Broome St, NY 10002,California, USA.
+
+									</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 sign-gd flickr-post">
+						<h4>Flickr <span>Posts</span></h4>
+						<ul>
+							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="../images/t4.jpg" alt=" " class="img-responsive" /></a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<p class="copy-right-w3ls-agileits">&copy 2018 Downy Shoes. All rights reserved | Design by <a href="http://w3layouts.com/">w3layouts</a></p>
+		</div>
+	</div>
+	</div>
+	<!-- //footer -->
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- js -->
 	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
