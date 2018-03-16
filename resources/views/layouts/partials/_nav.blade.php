@@ -38,7 +38,7 @@
           <a href="#" class="nav-link"><i class="fa fa-bell-o"></i> </a>
 
           <li class="dropdown">
-            <a href="{{ route('login') }}" class="dropdown-toggle" data-toggle="dropdown">
+            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">
               <img class="img-fluid rounded-circle" src="uploads/avatars/{{ Auth::user()->avatar }}">{{ Auth::user()->name }}<span class="caret"></span> 
             </a>
 

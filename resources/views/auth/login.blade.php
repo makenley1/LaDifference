@@ -18,27 +18,38 @@
     
       <div class="sub-main-w3">
 
-      <form action="#" method="post">
+      <form method="post" action="{{ route('login') }}">
+        {{ csrf_field() }}
+        <span id="reauth-email" class="reauth-email"></span>
         <div class="field">
           <i class="fa fa-envelope"></i>
-          <input placeholder="Entrez votre addresse mail" name="mail" type="email" required="">
+          <input type="email" id="email" name="email" placeholder="Entrez votre addresse mail" required autofocus>
+
+          @if ($errors->has('email'))
+               <span class="help-block">
+                   <strong>{{ $errors->first('email') }}</strong>
+               </span>
+          @endif
         </div>
         <div class="field">
           <i class="fa fa-key"></i>
-          <input  placeholder="Entrez votre Mot de passe" name="Phone" type="tel" required="">
+          <input type="password" id="inputPassword" placeholder="Entrez votre Mot de passe" name="password" required>
         </div>
         <div class="text-info">
-          <input type="checkbox"> Restez connect&eacute;
+          <input type="checkbox" value="remember-me" name="remember" {{ old('remember') ? 'checked' : '' }}> Restez connect&eacute;
         </div>
         <p><i class="fa fa-lock"></i> 
           Votre information est en sécurité avec nous 
         </p>
-        <input type="submit" value="Get Access Today">
+        <input type="submit" value="Se connecter">
       </form>
     </div>
+    <a class="btn btn-primary" href="{{ route('password.request') }}">
+                                    Mot de passe oubli&eacute; ?
+            </a>
   </div>
   <!--//main-->
-  
+              
   </div>
   </section>  
 @stop
