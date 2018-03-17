@@ -12,7 +12,7 @@
       <!-- product left -->
         <div class="side-bar col-md-3">
           <div class="search-hotel">
-            <h3 class="agileits-sear-head">Search Here..</h3>
+            <h3 class="agileits-sear-head">Recherche filtrer..</h3>
             <form action="#" method="post">
               <input type="search" placeholder="Product name..." name="search" required="">
               <input type="submit" value=" ">
@@ -219,23 +219,30 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/bestWestern/107508092.jpg" alt="Best Western">
+                    <img src="images/port-au-prince/bestWestern/107508092.jpg" alt="Best Western" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
+                        <a href="{{url('ouest/best-western-premier')}}" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
                   </div>
-                  <div class="item-info-product" style="height: 80px">
+                  <div class="item-info-product">
                     <h4>
                       <a href="{{url('ouest/best-western-premier')}}">Best Western </a>
                     </h4>
                     <div class="info-product-price">
                       <div class="grid_meta">
                         <div class="product_price">
-                          
+                          <div class="grid-price ">
+                            <span class="money ">$405.00</span>
+                          </div>
                         </div>
-                        
+                        <ul class="stars">
+                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                        </ul>
                           
                       </div>
                       <div class="shoe single-item hvr-outline-out">
@@ -260,15 +267,15 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/El-rancho/107508223.jpg" alt="">
+                    <img src="images/port-au-prince/El-rancho/107508223.jpg" alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style=" height: 80px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">El-rancho </a>
                     </h4>
@@ -280,7 +287,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fas fa-utensils"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
@@ -309,15 +315,15 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/Marriott/53864453.jpg" alt="">
+                    <img src="images/port-au-prince/Marriott/53864453.jpg" alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style="height: 81px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">Mariott </a>
                     </h4>
@@ -360,15 +366,15 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/royal-oasis/37490725.jpg" alt="">
+                    <img src="images/port-au-prince/royal-oasis/37490725.jpg" alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style=" height: 91px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">Royal Oasis </a>
                     </h4>
@@ -380,7 +386,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -409,15 +414,15 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/villa-therese/27796896.jpg" alt="" style="height: 154px;">
+                    <img src="images/port-au-prince/villa-therese/27796896.jpg" alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style="height: 94px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">Villa Therese</a>
                     </h4>
@@ -429,7 +434,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
@@ -458,15 +462,15 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/jacmel/cap-lamandou/95498782.jpg" alt="">
+                    <img src="images/jacmel/cap-lamandou/95498782.jpg" alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style="height: 94px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">Cap lamandou</a>
                     </h4>
@@ -478,7 +482,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -510,12 +513,12 @@
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
                     <img src="images/cap-haitien/auberge-villa-cana/44000100.jpg" alt="">
-                    <div class="men-cart-pro">
+                    <div class="men-cart-pro" style="width: 221px; height: 147px;">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
                   <div class="item-info-product">
                     <h4>
@@ -529,7 +532,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -559,14 +561,14 @@
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
                     <img src="images/fort-liberte/LeMarien-hotel/96691763.jpg" alt="">
-                    <div class="men-cart-pro">
+                    <div class="men-cart-pro" style="width: 221px; height: 147px;">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
-                  <div class="item-info-product" style="height: 109px;">
+                  <div class="item-info-product">
                     <h4>
                       <a href="single.html">Le Marien hotel</a>
                     </h4>
@@ -578,7 +580,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -608,12 +609,12 @@
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
                     <img src="images/jacmel/florida/88433615.jpg" alt="">
-                    <div class="men-cart-pro">
+                    <div class="men-cart-pro" style="width: 221px; height: 147px;">
                       <div class="inner-men-cart-pro">
-                        <a href="single.html" class="link-product-add-cart">Quick View</a>
+                        <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
-                    <span class="product-new-top">New</span>
+              
                   </div>
                   <div class="item-info-product">
                     <h4>
@@ -627,8 +628,6 @@
                           </div>
                         </div>
                         <ul class="stars">
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
