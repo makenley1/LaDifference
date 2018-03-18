@@ -60,13 +60,13 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
+   
       <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
         <ul class="nav navbar-nav" style="width: 77%;">
-          <li class="nav-item {{Request::is('/') ? 'active' : ''}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
-          <li class="nav-item {{Request::is('/contact') ? 'active' : ''}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
-          <li class="nav-item {{Request::is('/aide') ? 'active' : ''}}"> <a class="nav-link" href="#">Aide</a> </li>
-          <li class="nav-item {{Request::is('/business') ? 'active' : ''}}"> <a class="nav-link" href="#">Business</a> </li>
+          <li class=" {{Request::is('/') ? 'active' : null}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
+          <li class=" {{Request::is('/contact') ? 'active' : null}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
+          <li class=" {{Request::is('/aide') ? 'active' : null}}"> <a class="nav-link" href="{{url('/aide')}}">Aide</a> </li>
+          <li class=" {{Request::is('/business') ? 'active' : 'null'}}"> <a class="nav-link" href="#">Business</a> </li>
         </ul>
         <form class="ml-auto">
           <div class="search">

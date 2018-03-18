@@ -19,11 +19,11 @@ Route::get('/', function () {
 
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact')->welcome;
 });
 
-Route::get('/help', function () {
-    return view('help/help');
+Route::get('/aide', function () {
+    return view('aide');
 });
 
 Route::get('/ouest/best-western-premier', function () {
