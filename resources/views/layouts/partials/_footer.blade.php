@@ -50,7 +50,7 @@
 			</div>
 			<div class="copy-right-grids">
 				<div class="copy-left">
-						<p class="footer-gd">© 2016 Simple Footer Widget. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+						<p class="footer-gd">© 2018 MyHotel. Tous droits réservés <a href="https://w3layouts.com/" target="_blank">MyHotel</a></p>
 				</div>
 				<div class="copy-right">
 					<ul>

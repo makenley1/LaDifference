@@ -64,8 +64,8 @@
       <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
         <ul class="nav navbar-nav" style="width: 77%;">
           <li class=" {{Request::is('/') ? 'active' : null}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
-          <li class=" {{Request::is('/contact') ? 'active' : null}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
-          <li class=" {{Request::is('/aide') ? 'active' : null}}"> <a class="nav-link" href="{{url('/aide')}}">Aide</a> </li>
+          <li class=" {{Request::is('contact') ? 'active' : null}}"> <a class="nav-link" href="{{route('contact')}}">Contact </a> </li>
+          <li class=" {{Request::is('aide') ? 'active' : null}}"> <a class="nav-link" href="{{route('aide')}}">Aide</a> </li>
           <li class=" {{Request::is('/business') ? 'active' : 'null'}}"> <a class="nav-link" href="#">Business</a> </li>
         </ul>
         <form class="ml-auto">

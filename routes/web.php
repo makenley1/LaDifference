@@ -19,12 +19,12 @@ Route::get('/', function () {
 
 
 Route::get('/contact', function () {
-    return view('contact')->welcome;
-});
+    return view('contact');
+})->name('contact');
 
 Route::get('/aide', function () {
     return view('aide');
-});
+})->name('aide');
 
 Route::get('/ouest/best-western-premier', function () {
     return view('ouest/best-western-premier');
