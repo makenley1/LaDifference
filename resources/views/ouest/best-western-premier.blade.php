@@ -212,23 +212,23 @@ Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéres
 			<!--//tabs-->
 			<!-- /new_arrivals -->
 			<div class="new_arrivals">
-				<h3>Featured Products</h3>
+				<h3>Similaire Hotel</h3>
 				<!-- /womens -->
 				<div class="col-md-3 product-men women_two">
 					<div class="product-shoe-info shoe">
 						<div class="men-pro-item">
 							<div class="men-thumb-item">
-								<img src="images/s4.jpg" alt="">
+								<img src="../images/port-au-prince/El-rancho/107508223.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">Quick View</a>
+										<a href="el-rancho" class="link-product-add-cart">plus d'infos</a>
 									</div>
 								</div>
-								<span class="product-new-top">New</span>
+								
 							</div>
 							<div class="item-info-product">
 								<h4>
-									<a href="single.html">Shuberry Heels </a>
+									<a href="single.html">El Rancho </a>
 								</h4>
 								<div class="info-product-price">
 									<div class="grid_meta">
@@ -267,17 +267,17 @@ Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéres
 					<div class="product-shoe-info shoe">
 						<div class="men-pro-item">
 							<div class="men-thumb-item">
-								<img src="images/s5.jpg" alt="">
+								<img src="../images/port-au-prince/Marriott/53864453.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">Quick View</a>
+										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
 									</div>
 								</div>
-								<span class="product-new-top">New</span>
+								
 							</div>
 							<div class="item-info-product">
 								<h4>
-									<a href="single.html">Red Bellies </a>
+									<a href="mariott">Mariott </a>
 								</h4>
 								<div class="info-product-price">
 									<div class="grid_meta">
@@ -316,17 +316,17 @@ Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéres
 					<div class="product-shoe-info shoe">
 						<div class="men-pro-item">
 							<div class="men-thumb-item">
-								<img src="images/s7.jpg" alt="">
+								<img src="../images/port-au-prince/royal-oasis/37490725.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">Quick View</a>
+										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
 									</div>
 								</div>
-								<span class="product-new-top">New</span>
+								
 							</div>
 							<div class="item-info-product">
 								<h4>
-									<a href="single.html">Running Shoes</a>
+									<a href="single.html">Royal Oasis</a>
 								</h4>
 								<div class="info-product-price">
 									<div class="grid_meta">
@@ -365,17 +365,17 @@ Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéres
 					<div class="product-shoe-info shoe">
 						<div class="men-pro-item">
 							<div class="men-thumb-item">
-								<img src="images/s8.jpg" alt="">
+								<img src="../images/port-au-prince/villa-therese/27796896.jpg" alt="villa-therese" style="height: 159px;">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">Quick View</a>
+										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
 									</div>
 								</div>
-								<span class="product-new-top">New</span>
+								
 							</div>
 							<div class="item-info-product">
 								<h4>
-									<a href="single.html">Sukun Casuals</a>
+									<a href="single.html">Villa-Therese</a>
 								</h4>
 								<div class="info-product-price">
 									<div class="grid_meta">
