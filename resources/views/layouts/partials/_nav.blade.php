@@ -55,13 +55,13 @@
 </div>
 
 <section class="top-nav">
-  <nav class="navbar navbar-expand-lg py-0">
+  <nav class="navbar navbar-expand-lg py-0 navbar-light bg-light">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
-      <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav" style="width: 77%;">
           <li class="nav-item {{Request::is('/') ? 'active' : ''}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
           <li class="nav-item {{Request::is('/contact') ? 'active' : ''}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
