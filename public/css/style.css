@@ -1519,7 +1519,7 @@ button.top_shoe_cart {
     color: #848484;
     font-size: 14px;
     border: 1px solid #ddd;
-    width: 74%;
+    width: 65%;
     letter-spacing:3px;
     background: #000;
 }
@@ -2027,7 +2027,7 @@ p.head_para {
 }
 @media(max-width:1050px){
   .newsletter_w3layouts_agile {
-        padding: 2em 3em;
+        padding: 2em 2em;
     }
     .grid_sec_info {
         padding: 4em 3em;
@@ -2199,7 +2199,8 @@ p.head_para {
         width: 90%;
     }
     .newsletter_w3layouts_agile {
-        padding: 2em 1em;
+        padding: 1em 1em;
+        background-color: #fff;
     }
     .banner_top.innerpage {
         min-height: 185px;
@@ -3007,7 +3008,7 @@ display:block;
     font-size: 13px;
   } 
   .main {
-    padding: 135px 0;
+    padding: 0;
   }
   .main h1 {
     margin-bottom: 120px;
