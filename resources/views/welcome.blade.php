@@ -1,7 +1,7 @@
 @extends('layouts/app')        
 
 @section('content')
-
+<div class="banner_top innerpage" id="home"></div>
   <section class="top-nav">
     <!-- //banner -->
   <!-- top Products -->
@@ -680,7 +680,7 @@
   
   <!-- //newsletter-->
   <!-- footer -->
-<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
   <!-- js -->
   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
   <!-- //js -->

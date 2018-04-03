@@ -1,5 +1,4 @@
 <section>
-
 	<!-- /newsletter-->
 	<div class="newsletter_w3layouts_agile">
 	    <div class="col-sm-6 newsleft">
@@ -63,4 +62,6 @@
 			</div>
 		</div>
 	</div>
+
+<a href="#home" id="toTop" class="scroll" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
 </section>

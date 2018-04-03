@@ -6,7 +6,7 @@
       </div>
        
       <div class="col-lg-3 offset-lg-5">
-        <div class="social-icon"> <a target="_blank" href="#" class=" fa fa-facebook"></a> <a target="_blank" href="#" class=" fa fa-twitter"></a> <a target="_blank" href="#" class=" fa fa-google-plus"></a> <a target="_blank" href="#" class=" fa fa-linkedin"></a> <a target="_blank" href="#" class=" fa fa-youtube"></a> <a target="_blank" href="#" class=" fa fa-vimeo-square"></a> </div>
+        <div class="social-icon"> <a target="_blank" href="#" class=" fa fa-facebook"></a> <a target="_blank" href="#" class=" fa fa-twitter"></a> <a target="_blank" href="#" class=" fa fa-google-plus"></a> <a target="_blank" href="#" class=" fa fa-linkedin"></a> <a target="_blank" href="#" class=" fa fa-youtube"></a> </div>
 
         
       </div>
@@ -55,19 +55,20 @@
 </div>
 
 <section class="top-nav">
-  <nav class="navbar navbar-expand-lg py-0">
+  <nav class="navbar navbar-expand-lg py-0 navbar-light">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-   
-      <div class="collapse navbar-collapse" id="exCollapsingNavbar2">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav" style="width: 77%;">
-          <li class=" {{Request::is('/') ? 'active' : null}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
-          <li class=" {{Request::is('contact') ? 'active' : null}}"> <a class="nav-link" href="{{route('contact')}}">Contact </a> </li>
-          <li class=" {{Request::is('aide') ? 'active' : null}}"> <a class="nav-link" href="{{route('aide')}}">Aide</a> </li>
-          <li class=" {{Request::is('/business') ? 'active' : 'null'}}"> <a class="nav-link" href="#">Business</a> </li>
+          <li class="nav-item {{Request::is('/') ? 'active' : ''}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
+          <li class="nav-item {{Request::is('contact') ? 'active' : ''}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
+          <li class="nav-item {{Request::is('aide') ? 'active' : ''}}"> <a class="nav-link" href="#">Aide</a> </li>
+          <li class="nav-item {{Request::is('business') ? 'active' : ''}}"> <a class="nav-link" href="#">Business</a> </li>
         </ul>
+        
         <form class="ml-auto">
           <div class="search">
             <input type="text" class="form-control" maxlength="64" placeholder="Search" />
