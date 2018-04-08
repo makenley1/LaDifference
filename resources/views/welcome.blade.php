@@ -208,6 +208,8 @@
                 </div>
               </div>
             </div>
+
+            @foreach ($wels as $wel)
             <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
@@ -451,6 +453,8 @@
                 </div>
               </div>
             </div>
+
+            @endforeach
             <!-- //womens -->
             <!-- /mens -->
             <div class="col-md-4 product-men">
