@@ -209,7 +209,7 @@
               </div>
             </div>
 
-            @foreach ($wels as $wel)
+            @foreach ($products as $product)
             <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
@@ -224,7 +224,7 @@
                   </div>
                   <div class="item-info-product">
                     <h4>
-                      <a href="single.html">El-rancho </a>
+                      <a href="single.html">{{ $product->name }}</a>
                     </h4>
                     <div class="info-product-price">
                       <div class="grid_meta">
