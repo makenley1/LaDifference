@@ -15,10 +15,16 @@ class CreateWelcomesTable extends Migration
     {
         Schema::create('welcomes', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name')->unique();
+            $table->string('nom');
             $table->string('slug')->unique();
-            $table->string('details')->nullable();
-            $table->integer('price');
+            $table->string('adresse');
+            $table->string('telephone');
+            $table->integer('nbre_chambre');
+            $table->string('departement');
+            $table->string('ville');
+            $table->integer('nbre_de_lit');
+            $table->string('type_de_chambre');
+            $table->string('montant');
             $table->text('description');
             $table->timestamps();
         });

@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Welcome;
 
 use Illuminate\Http\Request;
 
@@ -13,8 +14,8 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        $products = welcomes::inRandomOrder()->take(2)->get();
+        $welcomes = welcome::inRandomOrder()->take(4)->get();
 
-        return view('landing-page')->with('products',$products);
+        return view('landing-page')->with('welcomes',$welcomes);
     }
 }

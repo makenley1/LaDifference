@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::get('/', 'LandingPageController@index')->name('landing-page');
 /*Route::get('/', "UserController@store");*/
 
+Route::get('/landing-page/{product}', 'WelcomeController@show')->name('welcome.show');
+
 
 Route::get('/contact', function () {
     return view('contact');
