@@ -18,4 +18,17 @@ class LandingPageController extends Controller
 
         return view('landing-page')->with('welcomes',$welcomes);
     }
+
+     /**
+     * Display the specified resource.
+     *
+     * @param  string  $slug
+     * @return \Illuminate\Http\Response
+     */
+    public function show($slug)
+    {
+        $welcomes = welcome::where('slug',$slug)->firstOrFail();
+
+        return view('landing-page')->with('welcome', $product);
+    }
 }

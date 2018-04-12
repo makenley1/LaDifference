@@ -167,7 +167,7 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="images/port-au-prince/bestWestern/107508092.jpg" alt="" style="width: 221px; height: 147px;">
+                    <img src=" images/port-au-prince/BestWestern/107508092.jpg " alt="" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
                         <a href="single.html" class="link-product-add-cart">Plus d'Infos</a>
