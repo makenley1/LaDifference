@@ -14,7 +14,7 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        $welcomes = welcome::inRandomOrder()->take(4)->get();
+        $welcomes = welcome::inRandomOrder()->take(8)->get();
 
         return view('landing-page')->with('welcomes',$welcomes);
     }
@@ -27,8 +27,8 @@ class LandingPageController extends Controller
      */
     public function show($slug)
     {
-        $welcomes = welcome::where('slug',$slug)->firstOrFail();
+        $welcome = welcome::where('slug', $slug)->firstOrFail();
 
-        return view('landing-page')->with('welcome', $product);
+        return view('hotels/slug-name')->with('welcome', $welcome);
     }
 }

@@ -14,6 +14,7 @@ class WelcomeTableSeeder extends Seeder
     {
         Welcome::create([
         	'nom' => 'Best Western Premier', 
+            'slug' => 'bw',
         	'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
         	'nbre_chambre' => 200,
@@ -43,7 +44,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
 
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Mariott',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -73,7 +75,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
 
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Royal oasis', 
+            'slug' => '',
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -103,7 +106,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
 
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Montana',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -134,7 +138,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
 
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Best Western Premier',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -163,7 +168,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
         ]);
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Best Western Premier',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -193,7 +199,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
 
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Best Western Premier',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
@@ -222,7 +229,8 @@ Cet établissement a également été bien noté pour son excellent rapport qual
         ]);
 
     Welcome::create([
-            'nom' => 'Best Western Premier', 
+            'nom' => 'Best Western Premier',
+            'slug' => '', 
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,

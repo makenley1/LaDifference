@@ -16,7 +16,7 @@ class CreateWelcomesTable extends Migration
         Schema::create('welcomes', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nom');
-            $table->string('slug')->unique();
+            $table->string('slug')->default('');
             $table->string('adresse');
             $table->string('telephone');
             $table->integer('nbre_chambre');

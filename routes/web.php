@@ -16,10 +16,7 @@ Route::get('/', function () {
 });*/
 
 Route::get('/', 'LandingPageController@index')->name('landing-page');
-/*Route::get('/', "UserController@store");*/
-
-Route::get('/landing-page/{product}', 'WelcomeController@show')->name('welcome.show');
-
+Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -29,9 +26,6 @@ Route::get('/help', function () {
     return view('help/help');
 });
 
-Route::get('/ouest/best-western-premier', function () {
-    return view('ouest/best-western-premier');
-});
 
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
