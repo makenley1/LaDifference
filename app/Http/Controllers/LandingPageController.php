@@ -14,7 +14,7 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        $welcomes = welcome::inRandomOrder()->take(8)->get();
+        $welcomes = welcome::inRandomOrder()->take(9)->get();
 
         return view('landing-page')->with('welcomes',$welcomes);
     }

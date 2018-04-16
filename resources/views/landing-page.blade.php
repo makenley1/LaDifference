@@ -167,7 +167,7 @@
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="{{ asset('images/hotels/'.$welcome->slug.'.jpg') }}" alt="Best Western" style="width: 221px; height: 147px;">
+                    <img src="{{ asset('images/hotels/'.$welcome->slug.'.jpg') }}" alt="{{ $welcome->nom }}" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
                         <a href="{{ route('show', $welcome->slug) }}" class="link-product-add-cart">Plus d'Infos</a>
