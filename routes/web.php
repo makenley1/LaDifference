@@ -10,13 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+/*
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('landing-page');
+});*/
 
-/*Route::get('/', "UserController@store");*/
-
+Route::get('/', 'LandingPageController@index')->name('landing-page');
+Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -26,9 +26,6 @@ Route::get('/aide', function () {
     return view('aide');
 })->name('aide');
 
-Route::get('/ouest/best-western-premier', function () {
-    return view('ouest/best-western-premier');
-});
 
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );

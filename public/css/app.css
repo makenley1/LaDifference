@@ -599,19 +599,19 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 700px;
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 937px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 1080px;
+    max-width: 960px;
   }
 }
 
@@ -4288,7 +4288,6 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  float: right;
 }
 
 .nav-link {
@@ -4465,7 +4464,7 @@ tbody.collapse.show {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 2.125rem;
+  font-size: 1.125rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;

@@ -255,10 +255,6 @@ span.check-w3 {
   }
 }
 @media(max-width: 900px){
-  body {
-    background: url(../images/bg.jpg) repeat -300px 0px;
-    background-size: cover;
-  }
   .main-content-agile {
     width: 38%;
   }
@@ -312,10 +308,7 @@ span.check-w3 {
   .footer p {
     letter-spacing: 1px;
   }
-  body {
-    background: url(../images/bg.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
+ 
 }
 @media(max-width: 600px){
   .header-w3l h1 {
@@ -1519,14 +1512,14 @@ button.top_shoe_cart {
     color: #848484;
     font-size: 14px;
     border: 1px solid #ddd;
-    width: 74%;
+    width: 65%;
     letter-spacing:3px;
     background: #000;
 }
 .newsright input[type="submit"]{
     border: none;
     padding: 10px 20px 11px;
-    font-size: 15px;
+    font-size: 9px;
     outline: none;
     text-transform: uppercase;
     margin: 0 0 0 -4px;
@@ -2027,7 +2020,7 @@ p.head_para {
 }
 @media(max-width:1050px){
   .newsletter_w3layouts_agile {
-        padding: 2em 3em;
+        padding: 2em 2em;
     }
     .grid_sec_info {
         padding: 4em 3em;
@@ -2199,7 +2192,8 @@ p.head_para {
         width: 90%;
     }
     .newsletter_w3layouts_agile {
-        padding: 2em 1em;
+        padding: 1em 1em;
+        background-color: #fff;
     }
     .banner_top.innerpage {
         min-height: 185px;
@@ -2282,7 +2276,7 @@ p.head_para {
     }
     .product-shoe-info {
         padding: 15px;
-        width: 47%;
+        width: 46%;
         margin: 0.5em;
         float: left;
     }
@@ -2665,7 +2659,7 @@ p.head_para {
         width: 95%;
     }
     .newsleft h3 {
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 15px;
         letter-spacing: 1px;
     }
@@ -2710,6 +2704,7 @@ p.head_para {
     }
     .newsright input[type="email"] {
         width: 62%;
+        height: 32px;
         letter-spacing: 1px;
     }
     #staplesbmincart .sbmincart-subtotal {
@@ -3007,7 +3002,7 @@ display:block;
     font-size: 13px;
   } 
   .main {
-    padding: 135px 0;
+    padding: 0;
   }
   .main h1 {
     margin-bottom: 120px;
@@ -3056,7 +3051,7 @@ display:block;
 }
 @media (max-width: 600px){
   .main {
-    padding: 65px 0;
+    padding: 0;
   }
   .main h1 {
     font-size: 28px;
@@ -3122,7 +3117,7 @@ display:block;
     font-size: 23px;
   }
   .main {
-    padding: 60px 0;
+    padding: 0;
   } 
 }
 @media (max-width: 320px){
@@ -3133,7 +3128,7 @@ display:block;
     padding: 1em 1em;
   }
   .main {
-    padding: 50px 0;
+    padding: 0;
   } 
 }
 
