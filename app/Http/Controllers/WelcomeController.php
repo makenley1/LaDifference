@@ -18,7 +18,7 @@ class WelcomeController extends Controller
         return view('welcome')->with('welcomes',$welcomes);
     }
 
-    
+
     /**
      * Display the specified resource.
      *

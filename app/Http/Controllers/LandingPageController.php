@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Welcome;
+use App\Departement;
 
 use Illuminate\Http\Request;
 
@@ -14,9 +15,21 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        $welcomes = welcome::inRandomOrder()->take(9)->get();
+        if (request()->Departement) {
+            $welcomes = welcome::with('departement')->whereHas('departement', function ($query) {
+                $query->where('slug', request()->Departement);
+            })->get();
+           $departement = Departement::all();
+        } else {            
+            $welcomes = welcome::inRandomOrder()->take(8)->get();
+            $departement = Departement::all();
+        }       
+/*SELECT distinct nom, departement_id FROM departement_welcome,departements WHERE departement_id=9;**/
 
-        return view('landing-page')->with('welcomes',$welcomes);
+        return view('landing-page')->with([
+            'welcomes' => $welcomes,
+            'departement' => $departement,
+        ]);
     }
 
      /**

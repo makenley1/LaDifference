@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class welcome extends Model
 {
-    
+     public function departement()
+    {
+    	return $this->belongsToMany('App\Departement');
+    }
 }

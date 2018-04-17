@@ -18,7 +18,6 @@ class WelcomeTableSeeder extends Seeder
         	'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
         	'nbre_chambre' => 200,
-        	'departement' => 'oeust',
         	'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -40,7 +39,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
 
     Welcome::create([
@@ -49,7 +48,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -71,7 +69,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(9);
 
 
     Welcome::create([
@@ -80,7 +78,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -102,7 +99,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
     Welcome::create([
             'nom' => 'villa-therese',
@@ -110,7 +107,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -132,7 +128,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
     Welcome::create([
             'nom' => 'cap-lamandou',
@@ -140,7 +136,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -162,7 +157,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(6);
 
     Welcome::create([
             'nom' => 'Florida',
@@ -170,7 +165,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -192,7 +186,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(4);
 
     Welcome::create([
             'nom' => 'Le Relais',
@@ -200,7 +194,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -222,7 +215,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
     Welcome::create([
             'nom' => 'Auberge Villa-Cana',
@@ -230,7 +223,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -252,7 +244,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(9);
 
     Welcome::create([
             'nom' => 'Samata',
@@ -260,7 +252,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -282,7 +273,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
     Welcome::create([
             'nom' => 'Auber-Cayes',
@@ -290,7 +281,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -312,7 +302,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
 
     Welcome::create([
@@ -321,7 +311,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -343,7 +332,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(10);
 
 
     Welcome::create([
@@ -352,7 +341,6 @@ Cet établissement a également été bien noté pour son excellent rapport qual
             'adresse' => '50 Angle Louverture & geffrard', 
             'telephone' => '',
             'nbre_chambre' => 200,
-            'departement' => 'oeust',
             'ville' => 'Petion-Ville',
             'nbre_de_lit' => 400,
             'type_de_chambre' => '',
@@ -367,13 +355,13 @@ Le BW Premier Petion-Ville, Haiti vous proposera également un spa, des salles d
 
 L\'hôtel BW Premier Petion-Ville, Haiti se trouve à 10,5 km de l\'ambassade américaine et de l\'aéroport international Toussaint Louverture ainsi qu\'à seulement 700 mètres d\'un quartier commerçant.
 
-Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s\'intéressent à ces thèmes : la relaxation, les climats ensoleillés et l\'histoire.
+Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s\'intéressent à ces thèmes : la relaxation, les climats ensoleillés et l\'histoire->Departement()->attach(10).
 
 Cet établissement a également été bien noté pour son excellent emplacement à Port-au-Prince ! Les clients en sont plus satisfaits en comparaison avec d\'autres établissements dans cette ville.
 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ]);
+        ])->Departement()->attach(4);
     }
 }

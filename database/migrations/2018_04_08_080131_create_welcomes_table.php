@@ -20,7 +20,6 @@ class CreateWelcomesTable extends Migration
             $table->string('adresse');
             $table->string('telephone');
             $table->integer('nbre_chambre');
-            $table->string('departement');
             $table->string('ville');
             $table->integer('nbre_de_lit');
             $table->string('type_de_chambre');
