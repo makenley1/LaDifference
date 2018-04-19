@@ -21,10 +21,9 @@ class LandingPageController extends Controller
             })->get();
            $departement = Departement::all();
         } else {            
-            $welcomes = welcome::inRandomOrder()->take(8)->get();
+            $welcomes = welcome::inRandomOrder()->take(9);
             $departement = Departement::all();
         }       
-/*SELECT distinct nom, departement_id FROM departement_welcome,departements WHERE departement_id=9;**/
 
         return view('landing-page')->with([
             'welcomes' => $welcomes,

@@ -147,16 +147,7 @@
 
 							<div class="single_page">
 								<h6>Best Western Premier</h6>
-								<p>Affichant une décoration moderne, l’établissement BW Premier Petion-Ville, Haiti est situé au cœur de Pétion-Ville. Il propose une piscine extérieure et une connexion Wi-Fi gratuite dans l'ensemble de ses locaux. Un bar à whisky est également disponible sur place.
-Dotées de la climatisation, les chambres et les suites de luxe disposent toutes d'une télévision par câble à écran plat ainsi que d'un bureau. Elles sont également équipées d'un réfrigérateur, d'un téléphone et d'un coffre-fort.
-Vous trouverez un restaurant méditerranéen à 500 mètres de l'établissement BW Premier Petion-Ville, Haiti ainsi qu'une pizzeria à seulement 150 mètres.
-Le BW Premier Petion-Ville, Haiti vous proposera également un spa, des salles de réunion, un centre de remise en forme, un service de nettoyage à sec et une navette aéroport.
-L'hôtel BW Premier Petion-Ville, Haiti se trouve à 10,5 km de l'ambassade américaine et de l'aéroport international Toussaint Louverture ainsi qu'à seulement 700 mètres d'un quartier commerçant. 
-Ce quartier (Pétionville) est un choix idéal pour les voyageurs qui s'intéressent à ces thèmes : la relaxation, la plage et les climats ensoleillés.</p>
-								<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie
-									blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-									ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore
-									magna aliqua.</p>
+								<p>{{ $welcome->description}}</p>
 							</div>
 						</div>
 						<!--//tab_one-->

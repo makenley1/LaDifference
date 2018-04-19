@@ -34,10 +34,10 @@
           <h3 class="agileits-sear-head">Occasion</h3>
           <ul>
             @foreach ($departement as $Departement)
-              <li>
-              <input type="checkbox" class="checked">
-              <a href=" {{ route('landing-page', ['Departement' => $Departement->slug]) }} "> <span class="span">{{ $Departement -> nom }}</span> </a>
-             </li> 
+            <li>
+                <input type="checkbox" class="checked">
+                <a href=" {{ route('landing-page', ['Departement' => $Departement->slug]) }} "> <span class="span">{{ $Departement -> nom }}</span> </a>
+            </li> 
             @endforeach              
             
           </ul>
@@ -202,6 +202,8 @@
                 </div>
               </div>
             </div>
+            
+
           @endforeach  
             
 
