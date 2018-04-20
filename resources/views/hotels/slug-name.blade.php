@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="col-md-8 single-right-left simpleCart_shelfItem">
-				<h3 class="capitalyze">best western premier</h3>
+				<h3 class="capitalyze">{{ $welcome->nom }}</h3>
 				<p><span class="item_price"></span>
 					
 				</p>

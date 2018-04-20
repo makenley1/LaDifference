@@ -199,7 +199,7 @@ Cet établissement a également été bien noté pour son excellent emplacement 
 Les couples apprécient particulièrement l\'emplacement de cet établissement. Ils lui donnent la note de 8,6 pour un séjour à deux.
 
 Cet établissement a également été bien noté pour son excellent rapport qualité/prix à Port-au-Prince ! Les clients en ont plus pour leur argent en comparaison avec d\'autres établissements dans cette ville.',   
-        ])->Departement()->attach();
+        ])->Departement()->attach(6);
 
     Welcome::create([
             'nom' => 'Auberge Villa-Cana',

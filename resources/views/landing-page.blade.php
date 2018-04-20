@@ -31,7 +31,7 @@
         <!-- //price range -->
         <!--preference -->
         <div class="left-side">
-          <h3 class="agileits-sear-head">Occasion</h3>
+          <h3 class="agileits-sear-head">Departements</h3>
           <ul>
             @foreach ($departement as $Departement)
             <li>
