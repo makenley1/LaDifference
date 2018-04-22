@@ -15,7 +15,7 @@ class WelcomeTableSeeder extends Seeder
         Welcome::create([
         	'nom' => 'Best Western Premier', 
             'slug' => 'best-western',
-        	'adresse' => '50 Angle Louverture & geffrard', 
+        	'adresse' => '50 Angle Louverture  & geffrard, Pétionville, Port-au-prince, Haiti ', 
             'telephone' => '',
         	'nbre_chambre' => 200,
         	'ville' => 'Petion-Ville',

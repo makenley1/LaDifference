@@ -14,10 +14,28 @@
 					<div class="flexslider">
 
 						<ul class="slides">
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508098.jpg">
+							@forearch($welcomes as welcome)
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'1.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'1.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'2.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'2.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'3.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'3.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'4.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'4.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'5.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'5.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'6.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'6.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								</li>
+								
+							@endforearch	
+							<!-- <li data-thumb="../images/port-au-prince/bestWestern/107508098.jpg">
 								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508098.jpg" data-imagezoom="true" class="img-responsive"> </div>
 							</li>
 							<li data-thumb="../images/port-au-prince/bestWestern/107508094.jpg">
@@ -40,7 +58,7 @@
 							</li>
 							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
 								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
+							</li> -->
 						</ul>
 						<div class="clearfix"></div>
 					</div>
@@ -61,7 +79,7 @@
 					</ul>
 				</div>
 				<div class="description">
-					<h5 class="capitalyze">50 angle louverture & geffrard, P&eacute;tionville, Port-au-prince, Haiti </h5>
+					<h5 class="capitalyze">{{ $welcome->adresse}} </h5>
 					
 				</div>
 				<div class="color-quality">
