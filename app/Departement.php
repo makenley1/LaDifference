@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Departement extends Model
 {
-    public function welcome()
+    public function product()
     {
-    	return $this->belongsToMany('App\welcome');
+    	return $this->belongsToMany('App\Product');
     }
 }

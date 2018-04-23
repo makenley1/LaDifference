@@ -152,22 +152,22 @@
             <div class="product-sec1">
             <!--/mens-->
 
-            @foreach ($welcomes as $welcome)
+            @foreach ($products as $product)
             
             <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item">
-                    <img src="{{ asset('images/hotels/'.$welcome->slug.'.jpg') }}" alt="{{ $welcome->nom }}" style="width: 221px; height: 147px;">
+                    <img src="{{ asset('images/hotels/'.$product->slug.'.jpg') }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="{{ route('show', $welcome->slug) }}" class="link-product-add-cart">Plus d'Infos</a>
+                        <a href="{{ route('show', $product->slug) }}" class="link-product-add-cart">Plus d'Infos</a>
                       </div>
                     </div>
                   </div>
                   <div class="item-info-product">
                     <h4>
-                      <a href="{{ route('show', $welcome->slug) }}">{{ $welcome->nom }} </a>
+                      <a href="{{ route('show', $product->slug) }}">{{ $product->nom }} </a>
                     </h4>
                     <div class="info-product-price">
                       <div class="grid_meta">

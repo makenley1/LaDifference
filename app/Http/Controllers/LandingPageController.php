@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Welcome;
+use App\Product;
 use App\Departement;
 
 use Illuminate\Http\Request;
@@ -16,17 +16,17 @@ class LandingPageController extends Controller
     public function index()
     {
        if (request()->Departement) {
-            $welcomes = welcome::with('departement')->whereHas('departement', function ($query) {
+            $products = product::with('departement')->whereHas('departement', function ($query) {
                 $query->where('slug', request()->Departement);
             })->get();
            $departement = Departement::all();
         } else {            
-            $welcomes = welcome::inRandomOrder()->take(9)->get();
+            $products = product::inRandomOrder()->take(9)->get();
             $departement = Departement::all();
         }       
 
         return view('landing-page')->with([
-            'welcomes' => $welcomes,
+            'products' => $products,
             'departement' => $departement,
         ]);
     }
@@ -39,10 +39,10 @@ class LandingPageController extends Controller
      */
     public function show($slug)
     {
-        $welcome = welcome::where('slug', $slug)->firstOrFail();
-        $slugName = welcome::where('slug', '!=', $slug)->inRandomOrder()->take(4)->get();
+        $product = product::where('slug', $slug)->firstOrFail();
+        $slugName = product::where('slug', '!=', $slug)->inRandomOrder()->take(4)->get();
 
-        return view('hotels/slug-name')->with('welcome', $welcome);
+        return view('hotels/slug-name')->with('product', $product);
        
     }
 }
