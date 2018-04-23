@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Welcome;
+use App\Product;
 
 class HotelsController extends Controller
 {
@@ -14,9 +14,9 @@ class HotelsController extends Controller
      */
     public function index()
     {
-        $welcomes = welcome::inRandomOrder()->take(4)->get();
+        $products = product::inRandomOrder()->take(4)->get();
 
-        return view('pages/hotels')->with('welcomes',$welcomes);
+        return view('pages/hotels')->with('products',$products);
     }
 
     

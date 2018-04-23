@@ -14,24 +14,24 @@
 					<div class="flexslider">
 
 						<ul class="slides">
-							@forearch($welcomes as welcome)
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'1.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'1.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+							@forearch($products as product)
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'1.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'1.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'2.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'2.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'2.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'2.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'3.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'3.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'3.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'3.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'4.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'4.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'4.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'4.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'5.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'5.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'5.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'5.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$welcome->slug.'6.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$welcome->slug.'6.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+								<li data-thumb="{{asset('images/hotels/'.$product->slug.'6.jpg') }}">
+									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'6.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
 								
 							@endforearch	
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 			<div class="col-md-8 single-right-left simpleCart_shelfItem">
-				<h3 class="capitalyze">{{ $welcome->nom }}</h3>
+				<h3 class="capitalyze">{{ $product->nom }}</h3>
 				<p><span class="item_price"></span>
 					
 				</p>
@@ -79,7 +79,7 @@
 					</ul>
 				</div>
 				<div class="description">
-					<h5 class="capitalyze">{{ $welcome->adresse}} </h5>
+					<h5 class="capitalyze">{{ $product->adresse}} </h5>
 					
 				</div>
 				<div class="color-quality">
@@ -165,7 +165,7 @@
 
 							<div class="single_page">
 								<h6>Best Western Premier</h6>
-								<p>{{ $welcome->description}}</p>
+								<p>{!! $product->description !!}</p>
 							</div>
 						</div>
 						<!--//tab_one-->
