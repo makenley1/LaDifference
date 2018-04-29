@@ -61,14 +61,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav" style="width: 100%;">
-          <li class="nav-item {{Request::is('/') ? 'active' : ''}}"> <a class="nav-link" href="{{url('/')}}">Accueil</a> </li>
-          <li class="nav-item {{Request::is('contact') ? 'active' : ''}}"> <a class="nav-link" href="{{url('contact')}}">Contact </a> </li>
-          <li class="nav-item {{Request::is('aide') ? 'active' : ''}}"> <a class="nav-link" href="#">Aide</a> </li>
-          <li class="nav-item {{Request::is('business') ? 'active' : ''}}"> <a class="nav-link" href="#">Business</a> </li>
-        </ul>
-        
+      {{ menu('main','layouts/partials/menus/main') }} 
+      
         <form class="ml-auto">
           <div class="search">
             <input type="text" class="form-control" maxlength="64" placeholder="Search" />
@@ -76,7 +70,7 @@
             <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
           </div>
         </form>
-      </div>
+      
     </div>
   </nav>
 </section>
