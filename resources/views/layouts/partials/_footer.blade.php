@@ -53,7 +53,7 @@
 				</div>
 				<div class="copy-right">
 					<ul>
-						<li><a href="#">Company Information</a></li>
+						<li><a href="{{ asset('/admin') }}" >Espace Administrateur</a></li>
 						<li><a href="#">Privacy Policy</a></li>
 						<li><a href="#">Terms & Conditions</a></li>
 					</ul>

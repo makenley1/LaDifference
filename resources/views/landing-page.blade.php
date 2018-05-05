@@ -138,12 +138,12 @@
       <div class="left-ads-display col-md-9">
         <div class="wrapper_top_shop">
           <div class="col-md-6 shop_left">
-            <img src="images/port-au-prince/BestWestern/107508189.jpg" alt="">
-            <h6>40% off</h6>
+            <img src="images/plage.jpg" alt="">
+            
           </div>
           <div class="col-md-6 shop_right">
             <img src="images/banner2.jpg" alt="">
-            <h6>50% off</h6>
+            
           </div>
           <div class="clearfix"></div>
           <!-- product-sec1 -->
@@ -157,8 +157,9 @@
             <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
-                  <div class="men-thumb-item">
-                    <img src="{{ asset('images/hotels/'.$product->slug.'.jpg') }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;">
+                  <div class="men-thumb-item"><!-- 
+                    <img src="{{ asset('images/hotels/'.$product->slug.'.jpg') }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;"> -->
+                    <img src="{{ asset('storage/'.$product->image) }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
                         <a href="{{ route('show', $product->slug) }}" class="link-product-add-cart">Plus d'Infos</a>
@@ -202,22 +203,8 @@
                 </div>
               </div>
             </div>
-            
-
+        
           @endforeach  
-            
-
-            
-            
-          <!-- //product-sec1 -->
-          <div class="col-md-6 shop_left shp">
-            <img src="images/banner4.jpg" alt="">
-            <h6>21% off</h6>
-          </div>
-          <div class="col-md-6 shop_right shp">
-            <img src="images/banner1.jpg" alt="">
-            <h6>31% off</h6>
-          </div>
           <div class="clearfix"></div>
         </div>
       </div>

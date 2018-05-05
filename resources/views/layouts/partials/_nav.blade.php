@@ -38,15 +38,14 @@
           <a href="#" class="nav-link"><i class="fa fa-bell-o"></i> </a>
 
           <li class="dropdown">
-            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">
-              <img class="img-fluid rounded-circle" src="uploads/avatars/{{ Auth::user()->avatar }}">{{ Auth::user()->name }}<span class="caret"></span> 
-            </a>
+            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">{{ Auth::user()->name }}</a>
 
             <ul class="dropdown-menu" style="background-color: currentColor;">
               <li><a href="{{ url('/profile') }} ">Profil</a></li>
               <li><a href="{{ url('/logout') }} ">Logout</a></li>
             </ul>
           </li>
+          <img class="img-fluid rounded-circle" src="/storage/{{Auth::user()->avatar }}">
         </nav>
       </div>
       @endguest
