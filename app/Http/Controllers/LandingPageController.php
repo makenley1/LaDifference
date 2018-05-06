@@ -21,7 +21,7 @@ class LandingPageController extends Controller
             })->get();
            $departement = Departement::all();
         } else {            
-            $products = product::inRandomOrder()->take(9)->get();
+            $products = product::inRandomOrder()->paginate(9);
             $departement = Departement::all();
         }       
 

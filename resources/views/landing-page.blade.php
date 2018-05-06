@@ -203,9 +203,12 @@
                 </div>
               </div>
             </div>
-        
           @endforeach  
           <div class="clearfix"></div>
+          
+          <div class="col-md-6 shop_left shp">
+            {!! $products -> links(); !!}
+          </div> 
         </div>
       </div>
       <div class="clearfix"></div>

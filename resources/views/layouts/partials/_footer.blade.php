@@ -24,7 +24,7 @@
 					voluptas sit aspernatur aut odit aut fugit, 
 					sed quia consequuntur magni dolores eos qui 
 					ratione voluptatem sequi nesciunt.</p>
-					<p class="adam">- Patrick Victoria, CEO</p>
+					<p class="adam">- Makenley TIOPHILE, Consultant</p>
 					<div class="clear"></div>
 				</div>
 				<div class="footer two">
