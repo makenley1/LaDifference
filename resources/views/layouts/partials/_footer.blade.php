@@ -49,7 +49,7 @@
 			</div>
 			<div class="copy-right-grids">
 				<div class="copy-left">
-						<p class="footer-gd">© 2018 MyHotel. Tous droits réservés <a href="https://w3layouts.com/" target="_blank">MyHotel</a></p>
+						<p class="footer-gd">© 2018 MyHotel. Tous droits réservés <a href="{{'/'}}">MyHotel</a></p>
 				</div>
 				<div class="copy-right">
 					<ul>

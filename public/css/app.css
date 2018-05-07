@@ -179,14 +179,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #fd3a13;
   text-decoration: underline;
 }
 
@@ -1235,12 +1235,20 @@ pre code {
     max-width: 16.66666667%;
   }
 
-  .col-md-3 {
+  /*.col-md-3 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%;
-  }
+  }*/
+
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+    max-width: 25%;
+     }
 
   .col-md-4 {
     -webkit-box-flex: 0;

@@ -138,7 +138,7 @@
       <div class="left-ads-display col-md-9">
         <div class="wrapper_top_shop">
           <div class="col-md-6 shop_left">
-            <img src="images/plage.jpg" alt="plage haitiene" style="height: 259px;">
+            <img src="images/plage.jpg" alt="plage haitiene" style="/*height: 259px;*/">
             
           </div>
           <div class="col-md-6 shop_right">
