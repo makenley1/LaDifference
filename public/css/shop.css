@@ -860,7 +860,7 @@ button.shoe-cart:hover {
 }
 .description h5 {
     color: #545454;
-    font-size: 0.9em;
+    font-size: 1.2em;
 	margin-bottom:12px;
 	letter-spacing: 1px;
 }
@@ -1036,7 +1036,7 @@ color: #000;
 }
 .single_page p {
 	line-height: 2em;
-    color: #888;
+    color: #000;
 }
 p.para {
     margin-top: 1em;

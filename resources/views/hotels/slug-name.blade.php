@@ -101,9 +101,6 @@
 					<div class="colr">
 						<label class="radio"><input type="radio" name="radio"><i></i>Enfant </label>
 					</div>
-					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>Enfant</label>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="occasion-cart">
@@ -465,7 +462,7 @@
 								<div class="thumbnail"><img src="../images/g5.jpg" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g6.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="../images/g.jpg" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
 								<div class="thumbnail"><img src="../images/g2.jpg" alt="Image" style="max-width:100%;"></div>
