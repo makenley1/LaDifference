@@ -62,9 +62,9 @@
 
       {{ menu('main','layouts/partials/menus/main') }} 
       
-        <form class="ml-auto">
+        <form action="" method="GET" class="ml-auto">
           <div class="search">
-            <input type="text" class="form-control" maxlength="64" placeholder="Search" />
+            <input type="text" name="query" id="query" class="form-control" maxlength="64" placeholder="Search" />
 
             <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
           </div>
