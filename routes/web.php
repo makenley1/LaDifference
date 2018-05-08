@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/', 'LandingPageController@index')->name('landing-page');
 Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
+Route::get('/search','LandingPageController@search')->name('search');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -25,7 +26,6 @@ Route::get('/contact', function () {
 Route::get('/aide', function () {
     return view('aide');
 })->name('aide');
-
 
 Auth::routes();
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
@@ -36,3 +36,4 @@ Auth::routes();
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+

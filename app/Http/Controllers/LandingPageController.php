@@ -45,4 +45,25 @@ class LandingPageController extends Controller
         return view('hotels/slug-name')->with('product', $product);
        
     }
+
+    public function search(Request $request){
+        if (request()->Departement) {
+            $products = product::with('departement')->whereHas('departement', function ($query) {
+                $query->where('slug', request()->Departement);
+            })->get();
+           $departement = Departement::all();
+        } else {            
+            $products = product::inRandomOrder()->paginate(9);
+            $departement = Departement::all();
+        }       
+
+        $query = $request->input('query');
+
+        $products = product::where('nom', 'like', '%$query%')->get();
+
+        return view('search-results')->with([
+            'products' => $products,
+            'departement' => $departement,
+        ]);
+    }
 }
