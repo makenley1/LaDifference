@@ -1,6 +1,7 @@
 @extends('layouts/app')        
 
 @section('content')
+
 <div class="banner_top innerpage" id="home"></div>
   <section class="top-nav">
     <!-- //banner -->
@@ -136,10 +137,30 @@
       <!-- //product left -->
       <!-- product right -->
 
-      <h1>Resultat de la Recherche</h1>
-      <p>5 result(5) for '{{ request()->input('query') }}' </p>
       <div class="left-ads-display col-md-9">
         <div class="wrapper_top_shop">
+
+          <h1>Resultat de la Recherche</h1>
+          <p>{{ $products->count() }} result(s) for '{{ request()->input('query') }}' </p>
+          
+            <div class="container">
+              @if (session()->has('success_message'))
+                <div class="alert alert-success">
+                  {{ session()->get('success_message') }}
+                </div>
+              @endif
+
+              @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                  <ul>
+                    @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                  </ul>    
+                </div>
+              @endif    
+            </div>
+
           <div class="col-md-6 shop_left">
             <img src="images/plage.jpg" alt="plage haitiene" style="/*height: 259px;*/">
             
@@ -208,10 +229,7 @@
             </div>
           @endforeach  
           <div class="clearfix"></div>
-          
-          <div class="col-md-6 shop_left shp">
-            {!! $products -> links(); !!}
-          </div> 
+
         </div>
       </div>
       <div class="clearfix"></div>

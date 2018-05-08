@@ -53,17 +53,22 @@ class LandingPageController extends Controller
             })->get();
            $departement = Departement::all();
         } else {            
-            $products = product::inRandomOrder()->paginate(9);
+            $products = product::inRandomOrder(8)->get();
             $departement = Departement::all();
         }       
 
+        $request->validate([
+            'query' => 'required|min:3',
+        ]);
+
         $query = $request->input('query');
 
-        $products = product::where('nom', 'like', '%$query%')->get();
+        $products = product::where('nom','like', "%$query%")->get();
 
         return view('search-results')->with([
             'products' => $products,
             'departement' => $departement,
         ]);
+        
     }
 }
