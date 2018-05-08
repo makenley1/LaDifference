@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Product;
+use App\Departement;
 
 use Illuminate\Http\Request;
 
@@ -23,6 +25,21 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        if (request()->Departement) {
+            $products = product::with('departement')->whereHas('departement', function ($query) {
+                $query->where('slug', request()->Departement);
+            })->get();
+           $departement = Departement::all();
+        } else {            
+            $products = product::inRandomOrder()->paginate(9);
+            $departement = Departement::all();
+        }       
+
+        return view('landing-page')->with([
+            'products' => $products,
+            'departement' => $departement,
+        ]);
+        
+        
     }
 }
