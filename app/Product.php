@@ -2,12 +2,13 @@
 
 namespace App;
 
+use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Model;
 use Nicolaslopezj\Searchable\SearchableTrait;
 
 class Product extends Model
 {
-	use SearchableTrait;
+	use SearchableTrait, Searchable;
 
 	/**
      * Searchable rules.
@@ -33,5 +34,15 @@ class Product extends Model
      public function departement()
     {
     	return $this->belongsToMany('App\Departement');
+    }
+
+    public function getScoutKey()
+    {
+        return $this->email;
+    }
+    
+    public function searchableAs()
+    {
+        return 'product_index';
     }
 }

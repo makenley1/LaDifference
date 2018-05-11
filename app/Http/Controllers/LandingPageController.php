@@ -18,7 +18,7 @@ class LandingPageController extends Controller
        if (request()->Departement) {
             $products = product::with('departement')->whereHas('departement', function ($query) {
                 $query->where('slug', request()->Departement);
-            })->get();
+            })->paginate(9);
            $departement = Departement::all();
         } else {            
             $products = product::inRandomOrder()->paginate(9);
