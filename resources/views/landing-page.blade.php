@@ -171,9 +171,8 @@
             <div class="product-sec1">
             <!--/mens-->
 
-            @foreach ($products as $product)
-            
-            <div class="col-md-4 product-men">
+            @forelse ($products as $product)
+              <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
                   <div class="men-thumb-item"><!-- 
@@ -222,7 +221,10 @@
                 </div>
               </div>
             </div>
-          @endforeach  
+            @empty
+              <div style="text-align: center; color: black; font-size: xx-large; font-weight: bold; font-style: italic; font-family: arial; ">Aucun hotel trouver pour ce departement !!!</div>
+            @endforelse
+    
           <div class="clearfix"></div>
           
           <div class="col-md-6 shop_left shp">
