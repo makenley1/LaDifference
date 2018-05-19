@@ -1,4 +1,4 @@
-@section('extra-css')
+@section('extra-cs')
   <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
 @endsection
 
@@ -73,13 +73,13 @@
           </svg>
       </div>     
       
-        <form action="{{ route('search') }}" method="GET" class="ml-auto">
+       <!--  <form action="{{ route('search') }}" method="GET" class="ml-auto">
           <div class="search">
             <input type="text" name="query" id="query" value="{{ request()->input('query') }}" class="form-control" maxlength="64" placeholder="Search" />
 
             <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
           </div>
-        </form>
+        </form> -->
       
     </div>
   </nav>
