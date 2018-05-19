@@ -179,14 +179,14 @@ sup {
 }
 
 a {
-  color: #fff;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #fd3a13;
+  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -1235,20 +1235,12 @@ pre code {
     max-width: 16.66666667%;
   }
 
-  /*.col-md-3 {
+  .col-md-3 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%;
-  }*/
-
-
-.col-md-3 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
-     }
+  }
 
   .col-md-4 {
     -webkit-box-flex: 0;
@@ -3600,7 +3592,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.9rem;
-  color: #125598;
+  color: #212529;
   text-align: left;
   list-style: none;
   background-color: #fff;
