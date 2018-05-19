@@ -1,6 +1,4 @@
-@section('extra-cs')
-  <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
-@endsection
+
 
 <div class="small-top">
   <div class="container">

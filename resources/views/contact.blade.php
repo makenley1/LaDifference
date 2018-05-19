@@ -1,5 +1,9 @@
 @extends ('layouts/app')
 
+@section('extra-css')
+  <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
+@endsection
+
 @section('content')
 
   <!-- banner -->
@@ -108,7 +112,7 @@
   <!-- /nav -->
   <script src="js/modernizr-2.6.2.min.js"></script>
   <script src="js/classie.js"></script>
-  <script src="js/demo1.js"></script>
+<!--  -->
   <!-- //nav -->
   <!-- script for responsive tabs -->
   <script src="js/easy-responsive-tabs.js"></script>
@@ -153,3 +157,10 @@
   <!-- //end-smoth-scrolling -->
   <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 @stop
+
+@section('extra-js')
+    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="{{ asset('js/algolia.js') }}"></script>
+@endsection

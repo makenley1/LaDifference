@@ -267,7 +267,6 @@
   <!-- /nav -->
   <script src="js/modernizr-2.6.2.min.js"></script>
   <script src="js/classie.js"></script>
-  
 
     <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
