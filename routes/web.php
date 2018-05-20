@@ -19,6 +19,9 @@ Route::get('/', 'LandingPageController@index')->name('landing-page');
 Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
 Route::get('/search','LandingPageController@search')->name('search');
 
+Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
+Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
+
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');

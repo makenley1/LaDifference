@@ -44,12 +44,10 @@
         <input type="submit" value="Se connecter">
       </form>
     </div>
-    <a class="btn btn-primary" href="{{ route('password.request') }}">
-                                    Mot de passe oubli&eacute; ?
-            </a>
+    <a class="btn btn-primary" href="{{ route('password.request') }}"> Mot de passe oubli&eacute; ? </a>
+     <a href="{{ url('auth/google') }}" class="btn btn-primary">Connecter Avec Google</a>         
   </div>
   <!--//main-->
-              
   </div>
   </section>  
 @stop

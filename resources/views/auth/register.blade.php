@@ -56,6 +56,8 @@
         <p><i class="fa fa-lock"></i> Enregistrement s&eacute;curiser</p>
         <input type="submit" value="S'enregistrer">
       </form>
+
+      <a href="{{ url('auth/google') }}" class="btn btn-primary">Enregistrement Avec Google</a>
     </div>
   </div>
   <!--//main-->
