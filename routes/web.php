@@ -10,10 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
-Route::get('/', function () {
-    return view('landing-page');
-});*/
 
 Route::get('/', 'LandingPageController@index')->name('landing-page');
 Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
@@ -39,4 +35,3 @@ Auth::routes();
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
-
