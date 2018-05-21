@@ -28,7 +28,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/Accueil';
 
     /**
      * Create a new controller instance.
@@ -53,7 +53,23 @@ class LoginController extends Controller
     public function handleProviderCallback($provider)
     {
         $user = Socialite::driver($provider)->stateless()->user();
+        $authUser = $this->findOrCreateUser ($user, $provider);
+        Auth::login($authUser, true);
+        return redirect($this->redirectTo);
+    }
 
-        return $user->token;
+    public function findOrCreateUser($user, $provider)
+    {
+        $authUser = user::where('provider_id', $user->id)->first();
+        if ($authUser) {
+            return $authUser;
+        }
+        return USer::create([
+            'name'          => $user->name,
+            'email'         => $user->email,
+            'provider'      => strtoupper($provider),
+            'provider_id'   => $user->id 
+        ]);
+
     }
 }
