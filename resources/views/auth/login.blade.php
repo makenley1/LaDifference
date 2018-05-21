@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
    @endsection 
 
+   @section('style')
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+   @stop
 @section('content')
 <section class="section-login">
   <div class="center-container">

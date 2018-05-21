@@ -1,7 +1,7 @@
 @extends ('layouts/app')
 
-@section('extra-css')
-  <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
+@section('style')
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
 @endsection
 
 @section('content')

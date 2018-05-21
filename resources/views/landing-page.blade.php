@@ -1,5 +1,9 @@
 @extends('layouts/app')        
 
+@section('style')
+  <link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property="" />
+@stop
+
 @section('content')
 <div class="banner_top innerpage" id="home"></div>
   <section class="top-nav">

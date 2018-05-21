@@ -1,7 +1,7 @@
 <div class="small-top">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 date-sec">
+      <div class="col-lg-4  ">
         <div id="Date"></div>
       </div>
        
