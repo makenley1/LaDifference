@@ -1,5 +1,3 @@
-
-
 <div class="small-top">
   <div class="container">
     <div class="row">
@@ -9,8 +7,6 @@
        
       <div class="col-lg-3 offset-lg-5">
         <div class="social-icon"> <a target="_blank" href="#" class=" fa fa-facebook"></a> <a target="_blank" href="#" class=" fa fa-twitter"></a> <a target="_blank" href="#" class=" fa fa-google-plus"></a> <a target="_blank" href="#" class=" fa fa-linkedin"></a> <a target="_blank" href="#" class=" fa fa-youtube"></a> </div>
-
-        
       </div>
     </div>
   </div>

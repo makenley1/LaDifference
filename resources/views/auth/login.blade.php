@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
+   @section('extra-css')
+    <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
+   @endsection 
+
 @section('content')
-  
 <section class="section-login">
   <div class="center-container">
     <!--header-->
