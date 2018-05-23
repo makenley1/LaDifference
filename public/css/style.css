@@ -126,7 +126,7 @@ i.fa {
   color: #fff;
 }
 ::-moz-placeholder { /* Firefox 18- */
-  color: #fff;
+  color: #000;
 }
 .sub-main-w3 input[type="password"]{
   margin-top: 0em;
