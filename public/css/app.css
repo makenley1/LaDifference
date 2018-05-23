@@ -179,14 +179,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #fffff4;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #ff0000;
   text-decoration: underline;
 }
 
@@ -4562,7 +4562,7 @@ tbody.collapse.show {
   }
 }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-expand-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -4617,7 +4617,7 @@ tbody.collapse.show {
     bottom: 100%;
   }
 }
-*/
+
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {

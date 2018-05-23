@@ -14,14 +14,14 @@
       <!-- tittle heading -->
       <!-- //tittle heading -->
       <!-- product left -->
-        <div class="side-bar col-md-3">
-          <div class="search-hotel">
+        <div class="side-bar col-md-3 col-lg-3">
+          <!-- <div class="search-hotel">
             <h3 class="agileits-sear-head">Recherche filtrer..</h3>
             <form action="#" method="post">
               <input type="search" placeholder="Product name..." name="search" required="">
               <input type="submit" value=" ">
             </form>
-          </div>
+          </div> -->
 
           <!-- price range -->
           <div class="range">
@@ -107,7 +107,7 @@
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <span>3.5</span>
               </a>
@@ -126,7 +126,7 @@
               <a href="#">
                 <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <span>2.5</span>
@@ -139,7 +139,7 @@
       </div>
       <!-- //product left -->
       <!-- product right -->
-      <div class="left-ads-display col-md-9">
+      <div class="left-ads-display col-md-9 col-lg-9">
         <div class="wrapper_top_shop">
 
           <div class="container">
@@ -160,11 +160,11 @@
               @endif    
             </div>
 
-          <div class="col-md-6 shop_left">
-            <img src="images/plage.jpg" alt="plage haitiene" style="/*height: 259px;*/">
+          <div class="col-md-6 col-lg-6 shop_left">
+            <img src="images/plage.jpg" alt="plage haitiene" style="height: 198px;">
             
           </div>
-          <div class="col-md-6 shop_right">
+          <div class="col-md-6 col-lg-6 shop_right">
             <img src="images/banner2.jpg" alt="">
             
           </div>
@@ -203,7 +203,7 @@
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
                         </ul>
                           
                       </div>
@@ -213,7 +213,7 @@
                           <input type="hidden" name="add" value="1">
                           <input type="hidden" name="shoe_item" value="Bella Toes">
                           <input type="hidden" name="amount" value="675.00">
-                          <button type="submit" class="shoe-cart pshoe-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+                          <button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs"></i></button>
 
                           <a href="#" data-toggle="modal" data-target="#myModal1"></a>
                         </form>

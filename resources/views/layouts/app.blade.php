@@ -12,14 +12,15 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/app.css">
-       
-     
+
     <!-- Owl-carousel-CSS -->
     <link rel="stylesheet" type="text/css" href="../css/jquery-ui1.css">
     <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />  
    
     <!-- font-awesome-icons -->
 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        
     <!-- <link href="../css/font-awesome.css" rel="stylesheet"> -->
     <!-- //font-awesome-icons -->
     <!-- <link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
