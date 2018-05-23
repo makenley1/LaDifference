@@ -57,8 +57,15 @@
         <input type="submit" value="S'enregistrer">
       </form>
 
-      <a href="{{ url('auth/google') }}" class="btn btn-primary">Enregistrement Avec Google</a>
+      <a href="{{ url('/auth/github') }}" class="btn btn-github">
+        <i class="fa fa-github" style="width: 20px;"></i> Github</a>
+      <a href="{{ url('/auth/twitter') }}" class="btn btn-twitter">
+        <i class="fa fa-twitter" style="width: 20px;"></i> Twitter</a>
+      <a href="{{ url('/auth/google') }}" class="btn btn-google">
+        <i class="fa fa-google-plus" style="width: 20px;"></i> Google</a>
     </div>
+
+
   </div>
   <!--//main-->
   
