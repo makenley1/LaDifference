@@ -1,5 +1,21 @@
 @extends('layouts/app')
 
+@section('style')
+  <link rel="stylesheet" type="text/css" href="../css/shop.css">
+  <link rel="stylesheet" type="text/css" href="../css/style7.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/jQuery-ui1.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="../css/flexslider.css">
+  <link rel="stylesheet" type="text/css" href="../css/easy-responsive-tabs.css">
+  <link rel="stylesheet" type="text/css" href="../css/creditly.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <link rel="stylesheet" type="text/css" href="../css/checkout.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/app.css">
+  <link rel="stylesheet" type="text/css" href="../css/about.css">
+@endsection
+
 @section('content')
 	<!-- banner -->
 	<div class="banner_top innerpage" id="home">
@@ -74,7 +90,7 @@
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
@@ -248,7 +264,7 @@
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
 									<div class="shoe single-item hvr-outline-out">
@@ -257,7 +273,7 @@
 											<input type="hidden" name="add" value="1">
 											<input type="hidden" name="shoe_item" value="Shuberry Heels">
 											<input type="hidden" name="amount" value="575.00">
-											<button type="submit" class="shoe-cart pshoe-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+											<button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs" aria-hidden="true"></i></button>
 
 											<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 										</form>
@@ -296,7 +312,7 @@
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
@@ -306,7 +322,7 @@
 											<input type="hidden" name="add" value="1">
 											<input type="hidden" name="shoe_item" value="Red Bellies">
 											<input type="hidden" name="amount" value="325.00">
-											<button type="submit" class="shoe-cart pshoe-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+											<button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs" aria-hidden="true"></i></button>
 
 											<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 										</form>
@@ -346,7 +362,7 @@
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
 									<div class="shoe single-item hvr-outline-out">
@@ -355,7 +371,7 @@
 											<input type="hidden" name="add" value="1">
 											<input type="hidden" name="shoe_item" value="Running Shoes">
 											<input type="hidden" name="amount" value="875.00">
-											<button type="submit" class="shoe-cart pshoe-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+											<button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs" aria-hidden="true"></i></button>
 
 											<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 										</form>
@@ -395,7 +411,7 @@
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
 									<div class="shoe single-item hvr-outline-out">
@@ -404,7 +420,7 @@
 											<input type="hidden" name="add" value="1">
 											<input type="hidden" name="shoe_item" value="Sukun Casuals">
 											<input type="hidden" name="amount" value="505.00">
-											<button type="submit" class="shoe-cart pshoe-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+											<button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs" aria-hidden="true"></i></button>
 
 											<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 										</form>
@@ -428,7 +444,7 @@
 	<!-- //top products -->
 	<div class="mid_slider_w3lsagile">
 		<div class="col-md-3 mid_slider_text">
-			<h5>Some More Shoes</h5>
+			<h5>Voir plus</h5>
 		</div>
 		<div class="col-md-9 mid_slider_info">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">

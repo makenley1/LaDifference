@@ -117,7 +117,7 @@ i.fa {
     text-align: center;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
+  color: #000;
 }
 ::-moz-placeholder { /* Firefox 19+ */
   color: #fff;
@@ -508,8 +508,8 @@ header{float: left; width:100%}
 .top-head{background: #5D5D5D; width: 100%; float: left; height: 100px;}
 .top-head h1 {color: #fff; font-size: 36px; font-weight: 600; margin: 18px 0 0;}
 .top-head small{float: left; width: 100%; font-size: 14px; color: #fff; margin-top: 5px; margin-left: 5px;}
-.top-head .admin-bar {text-align: right; margin-top: 22px;}
-.top-head .admin-bar a {color: #fff; font-weight: bold; line-height: 49px; position: relative; padding:0 7px;}
+.top-head .admin-bar {text-align: right; margin-top: 22px; padding-left: 0;}
+.top-head .admin-bar a {color: #fff; font-weight: bold; line-height: 42px; position: relative; padding:0 7px;}
 .top-head .admin-bar a:hover{color: #fd3a13;}
 .top-head .admin-bar a i{margin-right: 6px;}
 .top-head .admin-bar .ping {background: #ff0000; border: 3px solid #141517; border-radius: 50%; height: 14px; position: absolute; right: 3px;    top: 13px; width: 14px; z-index: 1;}
@@ -518,7 +518,7 @@ header{float: left; width:100%}
 .top-nav .nav-link {padding-bottom: 0.7rem; padding-top: 0.7rem;}
 .top-nav .navbar-nav .nav-item + .nav-item{margin-left:0}
 .top-nav li a{color: #141517; text-transform: uppercase; font-size: 14px; font-weight: 700; padding: 6px 13px;}
-.top-nav li a:hover, .top-nav li a:focus, .top-nav li.active a{color: #000; }
+.top-nav li a:hover, .top-nav li a:focus, .top-nav li.active a{color: #f80606; }
 .top-nav .form-control{border-color: #fff}
 .navbar-toggle{background: #fff;}
 .navbar-toggle .icon-bar{background:#0A2E61; }
@@ -1417,6 +1417,13 @@ button.top_shoe_cart {
     margin: 2em auto;
 }
 
+@media(max-width:768px){
+  .shop_inner_inf {
+    width: 100%;
+    margin: 2em auto;
+  }
+}
+
 /*-item_slider-*/
 
 .carousel {
@@ -2270,7 +2277,7 @@ p.head_para {
         bottom: 29%;
     }
     .newsleft {
-        float: none;
+        float: left;
         width: 100%;
     }
     .newsright {
@@ -2279,7 +2286,7 @@ p.head_para {
     }
     .product-shoe-info {
         padding: 15px;
-        width: 46%;
+        width: 95%;
         margin: 0.5em;
         float: left;
     }
@@ -2443,7 +2450,7 @@ p.head_para {
     }
     .product-shoe-info {
         padding: 15px;
-        width: 46%;
+        width: 100%;
         margin: 0.5em;
         float: left;
     }
