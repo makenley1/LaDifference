@@ -19,6 +19,13 @@
     <!--main-->
     <!-- fa mail fa-envelope -->
     <div class="main-content-agile">
+
+      @if ($errors->has('email'))
+        <span class="help-block">
+            <strong>{{ $errors->first('email') }}</strong>
+        </span>
+      @endif
+
       <h2>Identifiez-vous &nbsp;&nbsp;&nbsp;<i class="fa fa-user"></i> </h2>
       <h3></h3>
     
@@ -30,12 +37,6 @@
         <div class="field">
           <i class="fa fa-envelope"></i>
           <input type="email" id="email" name="email" placeholder="Entrez votre addresse mail" required autofocus>
-
-          @if ($errors->has('email'))
-               <span class="help-block">
-                   <strong>{{ $errors->first('email') }}</strong>
-               </span>
-          @endif
         </div>
         <div class="field">
           <i class="fa fa-key"></i>

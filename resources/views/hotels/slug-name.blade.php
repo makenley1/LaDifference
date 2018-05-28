@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="../css/shop.css">
   <link rel="stylesheet" type="text/css" href="../css/style7.css">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <link rel="stylesheet" type="text/css" href="../css/jQuery-ui1.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../css/jQuery-ui1.css"> -->
   <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="../css/flexslider.css">
   <link rel="stylesheet" type="text/css" href="../css/easy-responsive-tabs.css">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="../css/checkout.css">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../css/app.css">
-  <link rel="stylesheet" type="text/css" href="../css/about.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../css/about.css"> -->
 @endsection
 
 @section('content')
@@ -138,26 +138,26 @@
 					<li class="share">Share On : </li>
 					<li>
 						<a href="#" class="facebook">
-							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="front"><i class="fab fa-facebook" aria-hidden="true"></i></div>
+							<div class="back"><i class="fab fa-facebook" aria-hidden="true"></i></div>
 						</a>
 					</li>
 					<li>
 						<a href="#" class="twitter">
-							<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="front"><i class="fab fa-twitter" aria-hidden="true"></i></div>
+							<div class="back"><i class="fab fa-twitter" aria-hidden="true"></i></div>
 						</a>
 					</li>
 					<li>
 						<a href="#" class="instagram">
-							<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+							<div class="front"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+							<div class="back"><i class="fab fa-instagram" aria-hidden="true"></i></div>
 						</a>
 					</li>
 					<li>
 						<a href="#" class="pinterest">
-							<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							<div class="front"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
+							<div class="back"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
 						</a>
 					</li>
 				</ul>
