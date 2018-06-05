@@ -2,7 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4  ">
-        <div id="Date"></div>
+        <div id="google_translate_element"></div><script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,ht', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+          }
+    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       </div>
        
       <div class="col-lg-3 offset-lg-5">

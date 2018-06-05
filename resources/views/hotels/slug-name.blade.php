@@ -459,64 +459,48 @@
 					<div class="item">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/villa-therese.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/mariott6.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g3.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/royal-oasis.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g4.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/samata.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 						</div>
 					</div>
 					<div class="item active">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g5.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/auberge.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/cap-lamandou.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/el-rancho.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g3.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g4.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/lemangier.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/lemarien.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/lerelais.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g3.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/auber-cayes.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="../images/g4.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="{{ asset('images/hotels/villa-therese.jpg') }}" alt="Image" style="width: 300px; height: 260px;"></div>
 							</div>
 						</div>
 					</div>
