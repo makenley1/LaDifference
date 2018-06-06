@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ asset('css/algolia.css') }}">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     @yield('style')
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/app.css">
