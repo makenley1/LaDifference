@@ -1012,10 +1012,6 @@ color: #000;
 .add-review input[type="submit"]:hover{
     background: #000;
 }
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #fb383b;
-	color:#fff;
-}
 .product-men.single {
     margin: 0;
 }
