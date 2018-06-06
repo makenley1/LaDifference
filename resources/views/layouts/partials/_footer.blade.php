@@ -54,8 +54,8 @@
 				<div class="copy-right">
 					<ul>
 						<li><a href="{{ asset('/admin') }}" >Espace Administrateur</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Politique de confidentialité</a></li>
+						<li><a href="#">Termes et conditions</a></li>
 					</ul>
 				</div>
 				<div class="clear"></div>
