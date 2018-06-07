@@ -1411,7 +1411,7 @@ button.top_shoe_cart {
 }
 .shop_inner_inf {
     width: 90%;
-    margin: 2em auto;
+    margin: 6em auto;
 }
 
 @media(max-width:768px){
@@ -1511,6 +1511,7 @@ button.top_shoe_cart {
 /*--/newsletter--*/
 .newsletter_w3layouts_agile {
     padding: 3em 7em;
+    background-color: #fff;
 }
 .newsright input[type="email"] {
     outline: none;

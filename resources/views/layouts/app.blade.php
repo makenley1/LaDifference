@@ -10,6 +10,26 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     @yield('style')
 
+
+
+
+
+    <link rel="stylesheet" href="css/app.css">   
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/creditly.css">
+    <link rel="stylesheet" href="../css/easy-responsiv-tabs.css">
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/jquery-ui1.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style7.css">
+
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     
     <!-- Bootstrap CSS -->

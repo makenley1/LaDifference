@@ -12,7 +12,7 @@
   <div class="center-container">
     <!--header-->
     <div class="header-w3l">
-      <h1>Se connecter</h1>
+      <h1>S'identifier</h1>
     </div>
     <!--//header-->
     
@@ -46,7 +46,7 @@
           <input type="checkbox" value="remember-me" name="remember" {{ old('remember') ? 'checked' : '' }}> Restez connect&eacute;
         </div>
         <p><i class="fa fa-lock"></i> 
-          Votre information est en sécurité avec nous 
+           Votre information est en sécurité avec nous 
         </p>
         <input type="submit" value="Se connecter">
       </form>
@@ -57,7 +57,7 @@
       <a href="{{ url('/auth/google') }}" class="btn btn-google">
         <i class="fab fa-google" style="width: 20px;"></i> Google</a>
     </div>
-    <a class="btn btn-primary" href="{{ route('password.request') }}"> Mot de passe oubli&eacute; ? </a>        
+    <a class="btn btn-primary translate" href="{{ route('password.request') }}"> Mot de passe oublié ? </a>        
   </div>
 
   <!--//main-->

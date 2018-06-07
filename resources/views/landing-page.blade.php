@@ -153,11 +153,11 @@
             </div>
 
           <div class="col-md-6 col-lg-6 shop_left">
-            <img src="images/plage.jpg" alt="plage haitiene" style="height: 198px;">
+            <img src="images/plage.jpg" alt="plage haitiene" style="height: 259px;">
             
           </div>
           <div class="col-md-6 col-lg-6 shop_right">
-            <img src="images/banner2.jpg" alt="">
+            <img src="images/plage1.jpg" alt="">
             
           </div>
           <div class="clearfix"></div>
@@ -182,7 +182,7 @@
                   </div>
                   <div class="item-info-product">
                     <h4>
-                      <a href="{{ route('show', $product->slug) }}">{{ $product->nom }} </a>
+                      <a href="{{ route('show', $product->slug) }}" class="notranslate" >{{ $product->nom }} </a>
                     </h4>
                     <div class="info-product-price">
                       <div class="grid_meta">
