@@ -19,7 +19,7 @@
 		<div class="content">
 			<div class="footer-grids">
 				<div class="footer one">
-					<h3>More About Company</h3>
+					<h3> Plus d'infos sur l'entreprise</h3>
 					<p> Nemo enim ipsam voluptatem quia
 					voluptas sit aspernatur aut odit aut fugit, 
 					sed quia consequuntur magni dolores eos qui 
@@ -28,20 +28,20 @@
 					<div class="clear"></div>
 				</div>
 				<div class="footer two">
-					<h3>Keep Connected</h3>
+					<h3>Rester Connecté</h3>
 					<ul>
-						<li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
-						<li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
-						<li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
-						<li><a class="fb3" href="#"><i></i>Follow us on Dribbble</a></li>
-						<li><a class="fb4" href="#"><i></i>Follow us on Pinterest</a></li>
+						<li><a class="fb" href="#"><i></i>Aimez-nous sur Facebook</a></li>
+						<li><a class="fb1" href="#"><i></i>Suivez-nous sur Twitter</a></li>
+						<li><a class="fb2" href="#"><i></i>Ajoutez-nous sur Google Plus</a></li>
+						<li><a class="fb3" href="#"><i></i>Suivez-nous sur Dribbble</a></li>
+						<li><a class="fb4" href="#"><i></i>Suivez-nous sur Pinterest</a></li>
 					</ul>
 				</div>
 				<div class="footer three">
-					<h3>Contact Information</h3>
+					<h3>Informations de Contact</h3>
 					<ul>
-						<li>The company name <span>Lorem ipsum dolor,</span>Glasglow Dr 40 Fe 72.  </li>
-						<li>1234567890  </li>
+						<li>LogArt <span>Agent Marketing,</span>Tabarre 43.  </li>
+						<li>+(509) 4374-7773  </li>
 						<li><a href="mailto:info@example.com">contact@example.com</a> </li>
 					</ul>
 				</div>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="copy-right-grids">
 				<div class="copy-left">
-						<p class="footer-gd">© 2018 MyHotel. Tous droits réservés <a href="{{'/'}}">MyHotel</a></p>
+					<p class="footer-gd">© 2018 <span class="notranslate"> MyHôtel. </span> Tous droits réservés <a href="{{'/'}}" class="notranslate">MyHôtel</a></p>
 				</div>
 				<div class="copy-right">
 					<ul>

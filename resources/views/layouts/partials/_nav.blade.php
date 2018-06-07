@@ -4,7 +4,7 @@
       <div class="col-lg-4  ">
         <div id="google_translate_element"></div><script type="text/javascript">
           function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,ht', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            new google.translate.TranslateElement({pageLanguage: 'fr', includedLanguages: 'fr,en,ht', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
     </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       </div>
@@ -20,14 +20,14 @@
   <div class="container">
     <div class="row">
       <div class="col-6 col-lg-4">
-        <h1><a href="{{'/'}} "> MyHotel</a><small>Phare des Hotel Haitiens</small></h1>
+        <h1><a href="{{'/'}} " class="notranslate"> MyHôtel</a><small>Phare des Hotel Haitiens</small></h1>
       </div>
        
        @if(Auth::guest())
       <div class="col-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
         <nav class="nav nav-inline">
-          <a href="{{ route('login') }}" class="nav-link"><i class="fas fa-sign-in-alt"></i>Login</a>
-          <a href="{{ route('register') }}" class="nav-link"><i class="far fa-registered"></i> Register</a>
+          <a href="{{ route('login') }}" class="nav-link"><i class="fas fa-sign-in-alt"></i>Connecté</a>
+          <a href="{{ route('register') }}" class="nav-link"><i class="far fa-registered"></i> S'enregistrer</a>
         </nav>       
       </div>
 
