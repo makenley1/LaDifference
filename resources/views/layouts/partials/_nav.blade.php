@@ -42,7 +42,7 @@
               <li><a href="{{ url('/logout') }} ">Logout</a></li>
             </ul>
           </li>
-          <img class="img-fluid rounded-circle" src="/storage/{{Auth::user()->avatar }}">
+          <img class="img-fluid rounded-circle" src="/uploads/avatars/{{Auth::user()->avatar }}">
         </nav>
       </div>
       @endguest

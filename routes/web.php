@@ -27,6 +27,9 @@ Route::get('/aide', function () {
 })->name('aide');
 
 Auth::routes();
+
+Route::get('profile', 'UserController@profile');
+Route::post('profile', 'UserController@update_avatar');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
 Route::get('/Accueil', 'HomeController@index')->name('home');
 

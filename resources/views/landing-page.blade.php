@@ -15,14 +15,6 @@
       <!-- //tittle heading -->
       <!-- product left -->
         <div class="side-bar col-md-3 col-lg-3">
-          <!-- <div class="search-hotel">
-            <h3 class="agileits-sear-head">Recherche filtrer..</h3>
-            <form action="#" method="post">
-              <input type="search" placeholder="Product name..." name="search" required="">
-              <input type="submit" value=" ">
-            </form>
-          </div> -->
-
           <!-- price range -->
           <div class="range">
             <h3 class="agileits-sear-head">Price range</h3>
