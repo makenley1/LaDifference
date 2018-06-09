@@ -68,18 +68,10 @@
                                   <input id="text" name="text" placeholder="Nick Name" class="form-control here" required="required" type="text">
                                 </div>
                               </div>
-                             <!--  <div class="form-group row">
-                                <label for="select" class="col-4 col-form-label">Display Name public as</label> 
-                                <div class="col-8">
-                                  <select id="select" name="select" class="custom-select">
-                                    <option value="admin">Admin</option>
-                                  </select>
-                                </div>
-                              </div> -->
                               <div class="form-group row">
                                 <label for="email" class="col-4 col-form-label">Email*</label> 
                                 <div class="col-8">
-                                  <input id="email" name="email" placeholder="Email" class="form-control here" required="required" type="text">
+                                  <input id="email" name="email" placeholder="{{Auth::user()->email}}" class="form-control here" required="required" type="text">
                                 </div>
                               </div>
                               <div class="form-group row">

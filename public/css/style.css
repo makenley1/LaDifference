@@ -470,7 +470,7 @@ span.check-w3 {
 body {
   color: #5a5a5a;
   font-family: 'Open Sans',Arial,sans-serif;
-  font-size: 15px;
+  font-size: 1.5em;
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -586,7 +586,7 @@ ol {
 }
 
 .stars{
-  letter-spacing: -3px;
+  letter-spacing: -7px;
 }
 .background-video {
     position: fixed;
@@ -2732,7 +2732,7 @@ p.head_para {
 
 
 /*Footer*/
-a{text-decoration:none;}
+a{text-decoration:none; color: #fffff4;}
 .txt-rt{text-align:right;}/* text align right */
 .txt-lt{text-align:left;}/* text align left */
 .txt-center{text-align:center;}/* text align center */

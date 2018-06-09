@@ -32,7 +32,7 @@
             @foreach ($departement as $Departement)
             <li>
                 <input type="checkbox" class="checked">
-                <a href=" {{ route('landing-page', ['Departement' => $Departement->slug]) }} "> <span class="span">{{ $Departement -> nom }}</span> </a>
+                <a href=" {{ route('landing-page', ['Departement' => $Departement->slug]) }} "> <span class="span notranslate">{{ $Departement -> nom }}</span> </a>
             </li> 
             @endforeach              
             
@@ -41,38 +41,38 @@
         <!-- // preference -->
         <!-- discounts -->
         <div class="left-side">
-          <h3 class="agileits-sear-head">Discount</h3>
+          <h3 class="agileits-sear-head">Rabais</h3>
           <ul>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">5% or More</span>
+              <span class="span">5% or Plus</span>
             </li>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">10% or More</span>
+              <span class="span">10% or Plus</span>
             </li>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">20% or More</span>
+              <span class="span">20% or Plus</span>
             </li>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">30% or More</span>
+              <span class="span">30% or Plus</span>
             </li>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">50% or More</span>
+              <span class="span">50% or Plus</span>
             </li>
             <li>
               <input type="checkbox" class="checked">
-              <span class="span">60% or More</span>
+              <span class="span">60% or Plus</span>
             </li>
           </ul>
         </div>
         <!-- //discounts -->
         <!-- reviews -->
         <div class="customer-rev left-side">
-          <h3 class="agileits-sear-head">Customer Review</h3>
+          <h3 class="agileits-sear-head">Avis client</h3>
           <ul>
             <li>
               <a href="#">
@@ -176,7 +176,7 @@
                     <img src="{{ asset('storage/'.$product->image) }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
-                        <a href="{{ route('show', $product->slug) }}" class="link-product-add-cart">Plus d'Infos</a>
+                        <a href="{{ route('show', $product->slug) }}" class="link-product-add-cart">Plus</a>
                       </div>
                     </div>
                   </div>

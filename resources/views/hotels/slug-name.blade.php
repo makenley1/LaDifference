@@ -169,7 +169,7 @@
 				<div id="horizontalTab">
 					<ul class="resp-tabs-list">
 						<li>Description</li>
-						<li>Reviews</li>
+						<li>Avis</li>
 						<li>Information</li>
 					</ul>
 					<div class="resp-tabs-container">
@@ -243,7 +243,7 @@
 								<img src="../images/port-au-prince/El-rancho/107508223.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="el-rancho" class="link-product-add-cart">plus d'infos</a>
+										<a href="el-rancho" class="link-product-add-cart">plus</a>
 									</div>
 								</div>
 								
@@ -292,7 +292,7 @@
 								<img src="../images/port-au-prince/Marriott/53864453.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
+										<a href="single.html" class="link-product-add-cart">plus</a>
 									</div>
 								</div>
 								
@@ -341,7 +341,7 @@
 								<img src="../images/port-au-prince/royal-oasis/37490725.jpg" alt="">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
+										<a href="single.html" class="link-product-add-cart">plus</a>
 									</div>
 								</div>
 								
@@ -390,7 +390,7 @@
 								<img src="../images/port-au-prince/villa-therese/27796896.jpg" alt="villa-therese" style="height: 159px;">
 								<div class="men-cart-pro">
 									<div class="inner-men-cart-pro">
-										<a href="single.html" class="link-product-add-cart">plus d'infos</a>
+										<a href="single.html" class="link-product-add-cart">plus</a>
 									</div>
 								</div>
 								
