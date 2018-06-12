@@ -38,3 +38,6 @@ Auth::routes();
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('mail','mailController@index');
+Route::post('postMail','mailController@post');

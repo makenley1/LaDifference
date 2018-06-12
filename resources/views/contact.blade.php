@@ -19,17 +19,18 @@
 
           <h6>S'il vous plaît remplissez ce formulaire pour nous contacter.</h6>
 
-          <form action="#" method="post">
+          <form action="/postMail" method="post">
+            {{csrf_field()}}
             <div class="col-md-6 col-sm-6 contact_left_grid">
               <input type="text" name="Name" placeholder="Nom" required="">
-              <input type="email" name="Email" placeholder="Mail" required="">
+              <input type="email" name="email" placeholder="Mail" required="">
             </div>
             <div class="col-md-6 col-sm-6 contact_left_grid">
               <input type="text" name="Telephone" placeholder="Telephone" required="">
-              <input type="text" name="Subject" placeholder="Sujet" required="">
+              <input type="text" name="subject" placeholder="Sujet" required="">
             </div>
             <div class="clearfix"> </div>
-            <textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+            <textarea name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
             <input type="submit" value="Soumettre">
             <input type="reset" class="translate" value="nettoyer">
           </form>
