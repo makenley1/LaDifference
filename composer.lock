@@ -4,23 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9afe37657f5a17647de4482929aac99",
+    "content-hash": "d5c373a41b5908f65b563058abc625a2",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
-            "version": "1.25.1",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/algolia/algoliasearch-client-php.git",
-                "reference": "805021ea52630756d2da01d482309a2fdc47d3c0"
+                "reference": "aeb8ab5df50fef94acbee8168382da80539acc9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/805021ea52630756d2da01d482309a2fdc47d3c0",
-                "reference": "805021ea52630756d2da01d482309a2fdc47d3c0",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/aeb8ab5df50fef94acbee8168382da80539acc9a",
+                "reference": "aeb8ab5df50fef94acbee8168382da80539acc9a",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "ext-mbstring": "*",
                 "php": ">=5.3"
             },
@@ -54,7 +55,7 @@
             ],
             "description": "Algolia Search API Client for PHP",
             "homepage": "https://github.com/algolia/algoliasearch-client-php",
-            "time": "2018-03-02T13:24:10+00:00"
+            "time": "2018-06-07T12:28:42+00:00"
         },
         {
             "name": "arrilot/laravel-widgets",
@@ -1781,16 +1782,16 @@
         },
         {
             "name": "laravel/scout",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "297d9c5ef94c3f70e9c76b87a02d4b527698956e"
+                "reference": "f1b5d65a7d4a70bafaba7ec996176e95341c44ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/297d9c5ef94c3f70e9c76b87a02d4b527698956e",
-                "reference": "297d9c5ef94c3f70e9c76b87a02d4b527698956e",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/f1b5d65a7d4a70bafaba7ec996176e95341c44ec",
+                "reference": "f1b5d65a7d4a70bafaba7ec996176e95341c44ec",
                 "shasum": ""
             },
             "require": {
@@ -1813,7 +1814,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "4.0-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1842,7 +1843,7 @@
                 "laravel",
                 "search"
             ],
-            "time": "2018-03-16T18:00:44+00:00"
+            "time": "2018-05-24T13:35:34+00:00"
         },
         {
             "name": "laravel/socialite",
