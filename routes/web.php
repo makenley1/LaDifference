@@ -42,4 +42,5 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('mail','mailController@index');
 Route::post('postMail','mailController@post');
 
+Route::get('newsletter','NewsletterController@create');
 Route::post('newsletter','NewsletterController@store');
