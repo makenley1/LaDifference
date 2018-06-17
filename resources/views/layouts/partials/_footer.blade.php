@@ -6,8 +6,9 @@
 	    </div>
 	   
 	    <div class="col-sm-6 newsright">
-	    	<form action="#" method="post">
-	    		<input type="email" placeholder="Enter your email..." name="email" required="">
+	    	<form action="{{ url('newsletter') }}" method="post">
+	    		<input type="email" placeholder="Enter your email..." name="user_email" required="">
+	    		{{ csrf_field() }}
 	    		<input type="submit" value="Submit">
 	    	</form>
 	    </div>
