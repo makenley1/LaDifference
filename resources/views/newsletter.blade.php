@@ -26,7 +26,7 @@
           <div class="col-md-4"></div>
             <div class="form-group col-md-2">
               <label for="Email">Email:</label>
-              <input type="text" class="form-control" name="email">
+              <input type="email" class="form-control" name="email">
             </div>
           </div>
         <div class="row">

@@ -9,7 +9,7 @@ class NewsletterController extends Controller
 {
     public function create()
     {
-        return view('newsletter');
+        return view('/');
     }
 
     public function store(Request $request)
@@ -17,9 +17,9 @@ class NewsletterController extends Controller
         if ( ! Newsletter::isSubscribed($request->email) ) 
         {
             Newsletter::subscribePending($request->email);
-            return redirect('newsletter')->with('success', 'Thanks For Subscribe');
+            return redirect('/')->with('success', 'Merci de vous abonner !!!');
         }
-        return redirect('newsletter')->with('failure', 'Sorry! You have already subscribed ');
+        return redirect('/')->with('failure', 'Désolé! Vous avez déjà inscrit...');
             
     }
 }
