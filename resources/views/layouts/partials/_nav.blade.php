@@ -42,7 +42,7 @@
               <li><a href="{{ url('/logout') }} ">Déconnecter</a></li>
             </ul>
           </li>
-          <img class="img-fluid rounded-circle" src="/uploads/avatars/{{Auth::user()->avatar }}">
+          <img class="img-fluid rounded-circle" src="{{ asset('storage/'.Auth::user()->avatar) }}">
         </nav>
       </div>
       @endguest

@@ -588,6 +588,7 @@ ol {
 .stars{
   letter-spacing: -7px;
 }
+
 .background-video {
     position: fixed;
     background-size: cover;
@@ -1941,7 +1942,7 @@ p.head_para {
 @media(max-width:1440px){
   .ads-grid_shop {
         padding: 0;
-        margin-top: 6em;
+        margin-top: 2em;
     }
     .inner_section_w3ls {
         margin-top: 3em;
