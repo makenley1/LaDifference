@@ -28,27 +28,14 @@
 			<div class="col-md-4 single-right-left ">
 				<div class="grid images_3_of_2">
 					<div class="flexslider">
-
 						<ul class="slides">
-							 
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+							@if ($product->images)					
+								@foreach ( json_decode ($product->images, true) as $image) 
+									<li data-thumb="{{ asset('storage/'.$product->images) }}">
+									<div class="thumb-image"> <img src="{{ asset('storage/'.$product->images) }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'2.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'2.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'3.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'3.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'4.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'4.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'5.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'5.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'6.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'6.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>	
+								@endforeach
+							@endif		
 							</ul>
 						<div class="clearfix"></div>
 					</div>
