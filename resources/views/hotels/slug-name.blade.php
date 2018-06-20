@@ -31,8 +31,8 @@
 						<ul class="slides">
 							@if ($product->images)					
 								@foreach ( json_decode ($product->images, true) as $image) 
-									<li data-thumb="{{ asset('storage/'.$product->images) }}">
-									<div class="thumb-image"> <img src="{{ asset('storage/'.$product->images) }}" data-imagezoom="true" class="img-responsive"> </div>
+									<li data-thumb="{{ asset('storage/'.$image) }}">
+									<div class="thumb-image"> <img src="{{ asset('storage/'.$image) }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
 								@endforeach
 							@endif		
