@@ -133,7 +133,7 @@
 						<div class="tab1">
 
 							<div class="single_page">
-								<h6>Best Western Premier</h6>
+								<h6>{{ $product->nom }}</h6>
 								<p>{!! $product->description !!}</p>
 							</div>
 						</div>
