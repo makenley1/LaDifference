@@ -13,7 +13,7 @@
   <!-- top Products -->
   <div class="ads-grid_shop">
     <div class="shop_inner_inf">
-      <h3 class="head">Contactez nous !!!</h3>
+      <h3 class="head" style="margin-top: 1.7em;">Contactez nous !!!</h3>
       <div class="inner_section_w3ls">
         <div class="col-md-7 contact_grid_right">
 

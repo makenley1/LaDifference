@@ -7,7 +7,7 @@
             new google.translate.TranslateElement({pageLanguage: 'fr', includedLanguages: 'fr,ht,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
     </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-      </div>
+      </div
        
       <div class="col-lg-3 offset-lg-5">
         <div class="social-icon"> <a target="_blank" href="#" class="fab fa-facebook"></a> <a target="_blank" href="#" class=" fab fa-twitter"></a> <a target="_blank" href="#" class=" fab fa-google-plus"></a> <a target="_blank" href="#" class=" fab fa-linkedin"></a> <a target="_blank" href="#" class=" fab fa-youtube"></a> </div>

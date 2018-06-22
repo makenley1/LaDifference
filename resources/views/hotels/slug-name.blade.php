@@ -66,13 +66,6 @@
 					</div>
 				</div>
 				<div class="occasional">
-					<h5>Types :</h5>
-					<div class="colr ert">
-						<label class="radio"><input type="radio" name="radio" checked=""><i></i>Enfant</label>
-					</div>
-					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>Enfant </label>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="occasion-cart">
