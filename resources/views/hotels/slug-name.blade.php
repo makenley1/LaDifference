@@ -28,54 +28,15 @@
 			<div class="col-md-4 single-right-left ">
 				<div class="grid images_3_of_2">
 					<div class="flexslider">
-
 						<ul class="slides">
-							@forearch($products as product)
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'1.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'1.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
+							@if ($product->images)					
+								@foreach ( json_decode ($product->images, true) as $image) 
+									<li data-thumb="{{ asset('storage/'.$image) }}">
+									<div class="thumb-image"> <img src="{{ asset('storage/'.$image) }}" data-imagezoom="true" class="img-responsive"> </div>
 								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'2.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'2.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'3.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'3.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'4.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'4.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'5.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'5.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								<li data-thumb="{{asset('images/hotels/'.$product->slug.'6.jpg') }}">
-									<div class="thumb-image"> <img src="{{ asset('images/hotels/'.$product->slug.'6.jpg') }}" data-imagezoom="true" class="img-responsive"> </div>
-								</li>
-								
-							@endforearch	
-							<!-- <li data-thumb="../images/port-au-prince/bestWestern/107508098.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508098.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508094.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508094.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508103.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508103.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508154.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508154.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li>
-							<li data-thumb="../images/port-au-prince/bestWestern/107508092.jpg">
-								<div class="thumb-image"> <img src="../images/port-au-prince/bestWestern/107508092.jpg" data-imagezoom="true" class="img-responsive"> </div>
-							</li> -->
-						</ul>
+								@endforeach
+							@endif		
+							</ul>
 						<div class="clearfix"></div>
 					</div>
 				</div>
@@ -86,7 +47,7 @@
 					
 				</p>
 				<div class="rating1">
-					<ul class="stars">
+					<ul class="stars" style="letter-spacing: 1px;">
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -100,23 +61,11 @@
 				</div>
 				<div class="color-quality">
 					<div class="color-quality-right">
-						<h5>Quality :</h5>
-						<select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
-								<option value="null">5 Qty</option>
-								<option value="null">6 Qty</option> 
-								<option value="null">7 Qty</option>					
-								<option value="null">10 Qty</option>								
-							</select>
+						<h5>Etoile : {{ $product->star }}</h5>
+						
 					</div>
 				</div>
 				<div class="occasional">
-					<h5>Types :</h5>
-					<div class="colr ert">
-						<label class="radio"><input type="radio" name="radio" checked=""><i></i>Enfant</label>
-					</div>
-					<div class="colr">
-						<label class="radio"><input type="radio" name="radio"><i></i>Enfant </label>
-					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="occasion-cart">
@@ -177,7 +126,7 @@
 						<div class="tab1">
 
 							<div class="single_page">
-								<h6>Best Western Premier</h6>
+								<h6>{{ $product->nom }}</h6>
 								<p>{!! $product->description !!}</p>
 							</div>
 						</div>
@@ -217,15 +166,9 @@
 						<div class="tab3">
 
 							<div class="single_page">
-								<h6>Shoe Rock Vision(SRV) Sneakers (Blue)</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie
-									blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-									ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore
-									magna aliqua.</p>
-								<p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie
-									blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-									ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore
-									magna aliqua.</p>
+								<h6>Hôtel</h6>
+								<p>Un hôtel est un établissement commercial qui offre un service d'hébergement payant en chambres meublées à une clientèle de passage. En général, un hôtel assure l'entretien quotidien des chambres et des lits, ainsi que la fourniture du linge de toilette.</p>
+								<p class="para">Le mot latin hospitalis (du radical de hospes, hospitis avec le suffixe -alis), ou celui de hospitalitas, a donné les mots dérivés hôte, hôtel, hôtellerie, hôpital ou encore hospitalité</p>
 							</div>
 						</div>
 					</div>
@@ -259,7 +202,7 @@
 												<span class="money ">$575.00</span>
 											</div>
 										</div>
-										<ul class="stars">
+										<ul class="stars" style="letter-spacing: 1px;">
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -308,12 +251,12 @@
 												<span class="money ">$325.00</span>
 											</div>
 										</div>
-										<ul class="stars">
+										<ul class="stars" style="letter-spacing: 1px;">
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
 									<div class="shoe single-item hvr-outline-out">
@@ -357,7 +300,7 @@
 												<span class="money ">$875.00</span>
 											</div>
 										</div>
-										<ul class="stars">
+										<ul class="stars" style="letter-spacing: 1px;">
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -406,7 +349,7 @@
 												<span class="money ">$505.00</span>
 											</div>
 										</div>
-										<ul class="stars">
+										<ul class="stars" style="letter-spacing: 1px;">
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>

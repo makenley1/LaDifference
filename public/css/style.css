@@ -117,10 +117,10 @@ i.fa {
     text-align: center;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #000;
+  color: #fff;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #905a5b;
+  color: #fff;
 }
 ::-ms-input-placeholder { /* IE 10+ */
   color: #fff;
@@ -588,6 +588,7 @@ ol {
 .stars{
   letter-spacing: -7px;
 }
+
 .background-video {
     position: fixed;
     background-size: cover;
@@ -1411,7 +1412,7 @@ button.top_shoe_cart {
 }
 .shop_inner_inf {
     width: 90%;
-    margin: 6em auto;
+    margin: 2em auto;
 }
 
 @media(max-width:768px){
@@ -1941,6 +1942,7 @@ p.head_para {
 @media(max-width:1440px){
   .ads-grid_shop {
         padding: 0;
+        margin-top: 2em;
     }
     .inner_section_w3ls {
         margin-top: 3em;
