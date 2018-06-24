@@ -96,15 +96,7 @@
                 </div>
               @endif    
             </div>
-
-          <div class="col-md-6 col-lg-6 shop_left">
-            <img src="images/plage.jpg" alt="plage haitiene" style="height: 259px;">
             
-          </div>
-          <div class="col-md-6 col-lg-6 shop_right">
-            <img src="images/plage1.jpg" alt="">
-            
-          </div>
           <div class="clearfix"></div>
           <!-- product-sec1 -->
           <div class="product-sec1">
