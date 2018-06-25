@@ -129,10 +129,11 @@
                           </div>
                         </div>
                         <ul class="stars">
-                            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                          <?php
+                            for ($i=1; $i< $product->star; $i++) {
+                                echo '<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>';
+                            }
+                          ?>
                         </ul>
                           
                       </div>
