@@ -8,13 +8,14 @@ use Nicolaslopezj\Searchable\SearchableTrait;
 
 class Product extends Model
 {
-	/*use SearchableTrait, Searchable;*/
+	use SearchableTrait, Searchable;
 
 	/**
      * Searchable rules.
      *
      * @var array
      */
+    protected $table = 'products';
     protected $searchable = [
         /**
          * Columns and their priority in search results.
@@ -26,9 +27,6 @@ class Product extends Model
         'columns' => [
             'products.nom' => 10,
         ],
-        /*'joins' => [
-            'posts' => ['users.id','posts.user_id'],
-        ],*/
     ];
 
      public function departement()
@@ -43,6 +41,6 @@ class Product extends Model
     
     public function searchableAs()
     {
-        return 'product_index';
+        return 'product';
     }
 }

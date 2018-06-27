@@ -79,12 +79,12 @@
 
 							<a href="#" data-toggle="modal" data-target="#myModal1"></a>
 						</form>
-
+						<a href="{{route('book')}}" class="btn btn-success btn-lg">Book Now</a>
 					</div>
 
 				</div>
 				<ul class="social-nav model-3d-0 footer-social social single_page">
-					<li class="share">Share On : </li>
+					<li class="share">Partager sur : </li>
 					<li>
 						<a href="#" class="facebook">
 							<div class="front"><i class="fab fa-facebook" aria-hidden="true"></i></div>

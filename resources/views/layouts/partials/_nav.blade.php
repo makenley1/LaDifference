@@ -57,7 +57,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      {{ menu('main','layouts/partials/menus/main') }} 
+      {{ menu('main','layouts/partials/menus/main') }}
 
       <div class="aa-input-container" id="aa-input-container">
         <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Rechercher un Hôtel" name="search" autocomplete="off" />
