@@ -73,15 +73,15 @@ class CustomerController extends Controller
        $find->reservation()->save($reserve);
 
 
-       $data = array('title'=> 'Thank you for booking La PLanta Bais City.',
-              'content'=> 'Dear customers thank you for having us. please click the link below for you qr code '.route('reservation',['customer_id'=> $reserve->customer_id, 'flag'=> $reserve->flag]),
+       $data = array('title'=> 'Merci pour la réservation avec MyHotel.',
+              'content'=> 'Chers clients, merci de nous avoir. s\'il vous plaît cliquez sur le lien ci-dessous pour votre code qr '.route('reservation',['customer_id'=> $reserve->customer_id, 'flag'=> $reserve->flag]),
               'email'=> $request['email'],
               'name'=> $request['lname']. ''. $request['fname']. ''. $request['mname']
 
               );
 
        Mail::send('auth.email', $data, function($message) use ($data){
-        $message->to($data['email'])->subject('Hi'.$data['name']);
+        $message->to($data['email'])->subject('Hi '.$data['name']);
        });
 
        return redirect()->route('reservation', ['customer_id'=> $reserve->customer_id, 'flag'=> $reserve->flag]);

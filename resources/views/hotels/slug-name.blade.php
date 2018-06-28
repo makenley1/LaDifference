@@ -191,7 +191,7 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">$575.00</span>
+												<span class="money ">HTG 3490.00</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
@@ -240,7 +240,7 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">$325.00</span>
+												<span class="money ">HTG 2765.00</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
@@ -289,7 +289,7 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">$875.00</span>
+												<span class="money ">HTG 4300.00</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
@@ -338,7 +338,7 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">$505.00</span>
+												<span class="money ">HTG 1740.00</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">

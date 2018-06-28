@@ -98,15 +98,15 @@ body{
 				</div>
 				<div id="info1" style="display: none">
 					<div class="form-group">
-						<label>Last Name</label>
+						<label>Nom</label>
 						<input type="text" name="lname" class="form-control" required="">
 					</div>
 					<div class="form-group">
-						<label>First Name</label>
+						<label>Prénom</label>
 						<input type="text" name="fname" class="form-control" required="">
 					</div>
 					<div class="form-group">
-						<label>Middle Name</label>
+						<label>Deuxième nom</label>
 						<input type="text" name="mname" class="form-control" required="">
 					</div>
 				</div>
@@ -119,7 +119,7 @@ body{
 				</div>
 				<div id="info2" style="display: none;">
 					<div class="form-group">
-						<label>Date of Birth</label>
+						<label>Date de naissance</label>
 						<input type="date" name="dob" class="form-control" required="">
 					</div>
 					<div class="form-group">
@@ -127,10 +127,10 @@ body{
 						<input type="text" name="contact" class="form-control" required="">
 					</div>
 					<div class="form-group">
-						<label>Gender</label>
+						<label>Sexe</label>
 						<select name="gender" required="">
-							<option value="male">Male</option>
-							<option value="female">Female</option>
+							<option value="male">M</option>
+							<option value="female">F</option>
 						</select>
 					</div>
 				</div>
@@ -202,7 +202,7 @@ body{
 						
 						    
 						
-							<p> Prix : {{$product->montant + 20}}.00 HTG </p>
+							<p> Prix : {{$product->montant + 675}}.00 HTG </p>
 							
 
 						<p>Inclux: </p>
@@ -229,20 +229,20 @@ body{
 				<div class="col-md-4" id="deluxe1" style="display: none;">
 				<div>
 					<h3>Package</h3>
-					<p>Price : Php 1,650.00net</p>
-					<p>Inclusion: </p>
+					<p>Prix : {{$product->montant + 2080}}.00 HTG</p>
+					<p>Inclux: </p>
 					<ul>
-						<li>Overnight Accommodation for Single or Twin/Double</li>
-						<li>Breakfast</li>
-						<li>Taxes and Service Charge</li>
-					</ul>
-					<p>Room Amenities: </p>
-					<ul>
-						<li>Hot and Cold Shower</li>
-						<li>Cabled Television</li>
-						<li>Hair Dyer (except Standard Room)</li>
-						<li>Mini Bar (Suites only)</li>
-					</ul>
+							<li>Nuit Hébergement </li>
+							<li>Déjeuner</li>
+							<li>Taxes et frais de service</li>
+						</ul>
+						<p>Équipements de la chambre: </p>
+						<ul>
+							<li>Douche chaude et froide</li>
+							<li>Télévision câblée</li>
+							<li>Sèche-cheveux (sauf chambre standard)</li>
+							<li>Mini Bar</li>
+						</ul>
 				</div>
 			</div>
 			<div class="col-md-4" id="deluxe2" style="display: none;">
@@ -254,19 +254,19 @@ body{
 			<div class="col-md-4" id="standard1" style="display: none;">
 				<div>
 					<h3>Package</h3>
-					<p>Price : Php 1,450.00net</p>
+					<p>Prix : {{$product->montant}}.00 HTG</p>
 					<p>Inclusion: </p>
 					<ul>
-						<li>Overnight Accommodation for Single or Twin/Double</li>
-						<li>Breakfast</li>
-						<li>Taxes and Service Charge</li>
+						<li>Nuit Hébergement </li>
+						<li>Déjeuner</li>
+						<li>Taxes et frais de service</li>
 					</ul>
-					<p>Room Amenities: </p>
+					<p>Équipements de la chambre: </p>
 					<ul>
-						<li>Hot and Cold Shower</li>
-						<li>Cabled Television</li>
-						<li>Hair Dyer (except Standard Room)</li>
-						<li>Mini Bar (Suites only)</li>
+						<li>Douche chaude et froide</li>
+						<li>Télévision câblée</li>
+						<li>Sèche-cheveux (sauf chambre standard)</li>
+						<li>Mini Bar</li>
 					</ul>
 				</div>
 			</div>

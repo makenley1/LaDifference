@@ -35,7 +35,7 @@ Route::get('/suite-room', [
 ]);	
 
 Route::get('/book/{product}', 'CustomerController@show')->name('res');
-Route::get('/customer/{product}', 'LandingPageController@show')->name('voir');
+/*Route::get('/customer/{product}', 'LandingPageController@show')->name('voir');*/
 
 Route::post('/book/request', [
 		'as'=> 'request',

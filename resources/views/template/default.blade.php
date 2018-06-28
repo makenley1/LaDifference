@@ -34,7 +34,7 @@
 </div>
 
 <div class="row" id="footer">
-		<p class="text-center">All Right Reserved &copy; 2017</p>
+		<p class="text-center">Tous droits réservés © 2018</p>
 </div>	
 </div>
 </body>

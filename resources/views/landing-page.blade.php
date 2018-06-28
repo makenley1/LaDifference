@@ -108,8 +108,7 @@
               <div class="col-md-4 product-men">
               <div class="product-shoe-info shoe">
                 <div class="men-pro-item">
-                  <div class="men-thumb-item"><!-- 
-                    <img src="{{ asset('images/hotels/'.$product->slug.'.jpg') }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;"> -->
+                  <div class="men-thumb-item">
                     <img src="{{ asset('storage/'.$product->image) }}" alt="{{ $product->nom }}" style="width: 221px; height: 147px;">
                     <div class="men-cart-pro">
                       <div class="inner-men-cart-pro">
@@ -130,7 +129,7 @@
                         </div>
                         <ul class="stars">
                           <?php
-                            for ($i=1; $i< $product->star; $i++) {
+                            for ($i=1; $i<= $product->star; $i++) {
                                 echo '<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>';
                             }
                           ?>
