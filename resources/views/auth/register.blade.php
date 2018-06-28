@@ -15,7 +15,7 @@
     <!--main-->
     <div class="main-content-agile">
         <h2>Inscrivez-vous maintenant !!!<i class="fa mail fa-envelope"></i></h2>
-        <h3>Join us for free to get instant email updates</h3>
+        <h3>Rejoignez-nous gratuitement !!!</h3>
       <div class="sub-main-w3"> 
         <form action="{{route('register')}}" method="POST">
           {{ csrf_field() }}

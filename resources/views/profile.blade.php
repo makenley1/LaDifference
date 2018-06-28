@@ -57,9 +57,9 @@
                                 </div>
                               </div>
                               <div class="form-group row">
-                                <label for="lastname" class="col-4 col-form-label">Last Name</label> 
+                                <label for="lastname" class="col-4 col-form-label">Nom</label> 
                                 <div class="col-8">
-                                  <input id="lastname" name="lastname" placeholder="Last Name" class="form-control here" type="text">
+                                  <input id="lastname" name="lastname" placeholder="{{Auth::user()->l_name}}" class="form-control here" type="text">
                                 </div>
                               </div>
                               <div class="form-group row">

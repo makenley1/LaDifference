@@ -35,7 +35,7 @@
       <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
         <nav class="nav nav-inline">
           <li class="dropdown">
-            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">{{ Auth::user()->name }}</a>
+            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">{{ Auth::user()->f_name }}</a>
 
             <ul class="dropdown-menu" style="background-color: currentColor;">
               <li><a href="{{ url('/profile') }} ">Profile</a></li>
