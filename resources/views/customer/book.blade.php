@@ -93,7 +93,7 @@ body{
 	        <div class="col-md-2">
 				
 				<div class="form-group{{$errors->has('checkin') ? ' has-error' : ''}}" id="date">
-					<label>Check-In</label>
+					<label>Arrivée</label>
 					<input type="date" name="checkin" class="form-control" value="<?php echo $date = date('Y-m-d');?>" id="checkin">
 				</div>
 				<div id="info1" style="display: none">
@@ -114,7 +114,7 @@ body{
 
 			<div class="col-md-2">
 				<div class="form-group" id="date2">
-					<label>Check-Out</label>
+					<label>Départ</label>
 					<input type="date" name="checkout" class="form-control" required="" id="checkout">
 				</div>
 				<div id="info2" style="display: none;">
@@ -137,18 +137,25 @@ body{
 			</div>
 				<div class="col-md-4">
 					<div id="group1">
-						<label>Amenities</label>
+						<label>Chambres</label>
 						<div class="form-group">
-							<label>Room No</label>
+							<label>No</label>
 							<select name="room" required="" id="room">
 								<option>1</option>
 								<option>2</option>
 								<option>3</option>
 								<option>4</option>
 								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
 							</select>
 
-							<label>Room Type</label>
+							<label>Chambre Type</label>
 							<select id="change_room" name="type" required="">
 								<option value="3">Suite</option>
 								<option value="2">Deluxe</option>
@@ -173,7 +180,7 @@ body{
 				<div class="col-md-4">
 					<div id="bookBtn">
 						
-						<button class="btn btn-warning btn-lg btn-block" id="check_me" type="button">Check Availability</button>
+						<button class="btn btn-warning btn-lg btn-block" id="check_me" type="button">Voir les disponibilités</button>
 					</div>
 					<div id="Btns" style="display: none;">
 						<button class="btn btn-info btn-block btn-lg" id="verify" type="button">Review</button>
@@ -186,30 +193,30 @@ body{
 
 		<div class="row well">
 				<div class="col-md-4">
-					<h3>Reserved Date</h3>
+					<h3>Date réservée</h3>
 		        	<div id="glob-data" data-toggle="calendar"></div>
 				</div>
 				<div class="col-md-4" id="suite1">
 					<div>
-						<h3>Package</h3>
+						<h3>Paquet</h3>
 						
 						    
 						
-							<p> Price : Php 1,850.00net.</p>
+							<p> Prix : {{$product->montant + 20}}.00 HTG </p>
 							
 
-						<p>Inclusion: </p>
+						<p>Inclux: </p>
 						<ul>
-							<li>Overnight Accommodation for Single or Twin/Double</li>
-							<li>Breakfast</li>
-							<li>Taxes and Service Charge</li>
+							<li>Nuit Hébergement </li>
+							<li>Déjeuner</li>
+							<li>Taxes et frais de service</li>
 						</ul>
-						<p>Room Amenities: </p>
+						<p>Équipements de la chambre: </p>
 						<ul>
-							<li>Hot and Cold Shower</li>
-							<li>Cabled Television</li>
-							<li>Hair Dyer (except Standard Room)</li>
-							<li>Mini Bar (Suites only)</li>
+							<li>Douche chaude et froide</li>
+							<li>Télévision câblée</li>
+							<li>Sèche-cheveux (sauf chambre standard)</li>
+							<li>Mini Bar</li>
 						</ul>
 					</div>
 				</div>

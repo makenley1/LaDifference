@@ -35,10 +35,11 @@
 			<div class="footer-grids">
 				<div class="footer one">
 					<h3> Plus d'infos sur l'entreprise</h3>
-					<p> Nemo enim ipsam voluptatem quia
-					voluptas sit aspernatur aut odit aut fugit, 
-					sed quia consequuntur magni dolores eos qui 
-					ratione voluptatem sequi nesciunt.</p>
+					<p> Entreprise oeuvrant dans le secteur
+					touristique et culturel haïtienne. 
+					Nous sommes la pour 
+					guider vos choix et vous faciliter la vie...
+					</p>
 					<p class="adam">- Makenley TIOPHILE, Consultant</p>
 					<div class="clear"></div>
 				</div>
@@ -57,7 +58,7 @@
 					<ul>
 						<li>LogArt <span>Agent Marketing,</span>Tabarre 43.  </li>
 						<li>+(509) 4374-7773  </li>
-						<li><a href="mailto:info@example.com">contact@example.com</a> </li>
+						<li><a href="mailto:makenley1@gmail.com">logart@gmail.com</a> </li>
 					</ul>
 				</div>
 				<div class="clear"></div>

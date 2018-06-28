@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Welcome and Goodbye</title>
+	<title>Faite votre r&eacute;servation</title>
 	<link rel="stylesheet" type="text/css" href="{{URL::to('/asset/css/bootstrap.min.css')}}">
 	@yield('header')
 	
@@ -15,12 +15,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<img src="{{URL::to('/images/logo.jpg')}}" height="50px">
+			<h1 style="color: #fff; font-family: Arial; font-size: 2em; font-weight: bold;">MyHotel</h1>
 		</div>
 
 		<div class="collapse navbar-collapse" id="navs">
 			<ul class="nav navbar-nav">
-				<li><a href="{{url('/')}}">Home</a></li>
+				<li style="margin-top: 10px; font-weight: bold;"><a href="{{url('/')}}">Accueil</a></li>
 			</ul>
 
 			

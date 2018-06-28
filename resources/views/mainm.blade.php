@@ -33,7 +33,7 @@
     }
     
 		#tours{
-      background-image: url("{{URL::to('/images/bg.jpg')}}");
+      background-image: url("{{URL::to('/images/g.jpg')}}");
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;

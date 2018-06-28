@@ -70,16 +70,8 @@
 				</div>
 				<div class="occasion-cart">
 					<div class="shoe single-item single_page_b">
-						<form action="#" method="post">
-							<input type="hidden" name="cmd" value="_cart">
-							<input type="hidden" name="add" value="1">
-							<input type="hidden" name="shoe_item" value="Chikku Loafers">
-							<input type="hidden" name="amount" value="405.00">
-							<input type="submit" name="submit" value="Faire une reservation" class="button add">
-
-							<a href="#" data-toggle="modal" data-target="#myModal1"></a>
-						</form>
-						<a href="{{route('book')}}" class="btn btn-success btn-lg">Book Now</a>
+	
+						<a href="{{route('res', $product->slug) }}" class="btn btn-success btn-lg">Faire une r&eacute;servation</a>
 					</div>
 
 				</div>

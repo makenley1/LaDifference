@@ -61,7 +61,7 @@
   </script> -->
   <!-- //custom-theme -->
   
-    <title>Hello, world!</title>
+    <title>www.logart.ht - Votre partenaire local</title>
     
   </head>
 

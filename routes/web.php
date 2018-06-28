@@ -34,8 +34,8 @@ Route::get('/suite-room', [
 
 ]);	
 
-Route::get('/book', 'CustomerController@book')->name('book');
-Route::get('/customer/{product}', 'CustomerController@show')->name('voir');
+Route::get('/book/{product}', 'CustomerController@show')->name('res');
+Route::get('/customer/{product}', 'LandingPageController@show')->name('voir');
 
 Route::post('/book/request', [
 		'as'=> 'request',
@@ -93,9 +93,7 @@ Route::get('/Accueil', 'HomeController@index')->name('Accueil');
 //Merger
 
 Route::get('/', 'LandingPageController@index')->name('landing-page');
-Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
-
-Route::get('/hotels/{welcome}', 'LandingPageController@show')->name('show');
+Route::get('/hotels/{product}', 'LandingPageController@show')->name('show');
 
 Route::get('/contact', function () {
     return view('contact');

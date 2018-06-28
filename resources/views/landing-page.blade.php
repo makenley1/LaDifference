@@ -17,7 +17,7 @@
         <div class="side-bar col-md-3 col-lg-3">
           <!-- price range -->
           <div class="range">
-            <h3 class="agileits-sear-head">Price range</h3>
+            <h3 class="agileits-sear-head">&Eacute;chelle des prix</h3>
               <ul class="dropdown-menu6">
                 <li> <div id="slider-range"></div>
                   <input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
@@ -125,7 +125,7 @@
                       <div class="grid_meta">
                         <div class="product_price">
                           <div class="grid-price ">
-                            <span class="money ">{{ $product->montant }} GDES</span>
+                            <span class="money ">{{ $product->montant }} HTG</span>
                           </div>
                         </div>
                         <ul class="stars">
@@ -219,13 +219,13 @@
       $("#slider-range").slider({
         range: true,
         min: 0,
-        max: 9000,
-        values: [50, 6000],
+        max: 25000,
+        values: [400, 20000],
         slide: function (event, ui) {
-          $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+          $("#amount").val("HTG" + ui.values[0] + " - HTG" + ui.values[1]);
         }
       });
-      $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+      $("#amount").val("HTG" + $("#slider-range").slider("values", 0) + " - HTG" + $("#slider-range").slider("values", 1));
 
     }); //]]>
   </script>

@@ -23,10 +23,14 @@ class CustomerController extends Controller
     {   
       return view('customer/book');
     }
+
     public function show($slug)
     {
-      $product = Product::where('slug', $slug)->firstOrFail();
-      return view('customer/book')->with('product', $product);
+        $product = product::where('slug', $slug)->firstOrFail();
+        $slugName = product::where('slug', '!=', $slug)->inRandomOrder()->take(4)->get();
+
+        return view('customer/book')->with('product', $product);
+       
     }
 
     public function request(Request $request){
