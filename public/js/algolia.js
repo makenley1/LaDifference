@@ -1,6 +1,6 @@
 (function(){
     var client = algoliasearch('ERQ48T1LPO', '921f2843c37134c7505f5cfd0d720a2a');
-    var index = client.initIndex('products');
+    var index = client.initIndex('product');
     //initialize autocomplete on search input (ID selector must match)
     autocomplete('#aa-search-input', { hint: false }, {
         source: autocomplete.sources.hits(index, {hitsPerPage: 10}),
@@ -13,7 +13,7 @@
                 const markup = `
                     <div class="algolia-result">
                         <span>${suggestion._highlightResult.nom.value}</span>
-                        <span>$${(suggestion.montant / 100).toFixed(2)}</span>
+                        <span>HTG ${suggestion.montant}</span>
                     </div>
 
                     <div class="algolia-details">

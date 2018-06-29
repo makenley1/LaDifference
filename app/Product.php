@@ -41,6 +41,6 @@ class Product extends Model
     
     public function searchableAs()
     {
-        return 'Products_index';
+        return 'product';
     }
 }
