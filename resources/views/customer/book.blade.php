@@ -105,10 +105,6 @@ body{
 						<label>Prénom</label>
 						<input type="text" name="fname" class="form-control" required="">
 					</div>
-					<div class="form-group">
-						<label>Deuxième nom</label>
-						<input type="text" name="mname" class="form-control" required="">
-					</div>
 				</div>
 			</div>
 

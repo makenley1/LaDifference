@@ -19,9 +19,10 @@
       <div class="sub-main-w3"> 
         <form action="{{route('register')}}" method="POST">
           {{ csrf_field() }}
+          
           <div class="field form-group{{ $errors->has('name') ? ' has-error' : '' }}">
             <i class="fa fa-user"></i>
-            <input id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Votre Nom" required autofocus>
+            <input id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Nom" required autofocus>
 
             @if ($errors->has('name'))
                  <span class="help-block">
@@ -29,19 +30,10 @@
                 </span>
             @endif
           </div>
-          <div class="field form-group{{ $errors->has('l_name') ? ' has-error' : '' }}">
-            <i class="fa fa-user"></i>
-            <input id="l_name" type="text" name="l_name" value="{{ old('l_name') }}" placeholder="Last name" required autofocus>
-
-            @if ($errors->has('name'))
-                 <span class="help-block">
-                     <strong>{{ $errors->first('l_name') }}</strong>
-                </span>
-            @endif
-          </div>
+          
           <div class="field form-group{{ $errors->has('f_name') ? ' has-error' : '' }}">
             <i class="fa fa-user"></i>
-            <input id="f_name" type="text" name="f_name" value="{{ old('f_name') }}" placeholder="first name" required autofocus>
+            <input id="f_name" type="text" name="f_name" value="{{ old('f_name') }}" placeholder="Prénom" required autofocus>
 
             @if ($errors->has('f_name'))
                  <span class="help-block">
@@ -49,26 +41,7 @@
                 </span>
             @endif
           </div>
-          <div class="field form-group{{ $errors->has('m_name') ? ' has-error' : '' }}">
-            <i class="fa fa-user"></i>
-            <input id="m_name" type="text" name="m_name" value="{{ old('m_name') }}" placeholder="middle name" required autofocus>
-
-            @if ($errors->has('m_name'))
-                 <span class="help-block">
-                     <strong>{{ $errors->first('m_name') }}</strong>
-                </span>
-            @endif
-          </div>
-          <div class="field form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-            <i class="fa fa-user"></i>
-            <input id="username" type="text" name="username" value="{{ old('username') }}" placeholder="username" required autofocus>
-
-            @if ($errors->has('m_name'))
-                 <span class="help-block">
-                     <strong>{{ $errors->first('username') }}</strong>
-                </span>
-            @endif
-          </div>
+          
           <div class="field form-group{{ $errors->has('email') ? ' has-error' : '' }}">
             <i class="fa fa-envelope"></i>
             <input id="email" type="email" name="email" value="{{ old('email') }}" placeholder="Votre E-mail" required>
@@ -79,16 +52,14 @@
                  </span>
             @endif
           </div>
-          <div class="field form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-            <i class="fa fa-lock"></i>
-            <input id="password" type="password" name="password" placeholder="Votre mot de passe" required>
-
           @if ($errors->has('password'))
               <span class="help-block">
                 <strong>{{ $errors->first('password') }}</strong>
               </span>
           @endif
-
+          <div class="field form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+            <i class="fa fa-lock"></i>
+            <input id="password" type="password" name="password" placeholder="Votre mot de passe" required>
           </div>
           <div class="field">
             <i class="fa fa-lock"></i>

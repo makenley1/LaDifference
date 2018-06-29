@@ -26,12 +26,14 @@
               
             </div> 
         </div>
+
+        <!-- {{ asset('storage/'.Auth::user()->avatar) }} -->
         <div class="col-md-9">
             <div class="card">
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="{{ asset('storage/'.Auth::user()->avatar) }}" style="width: 120px; height: 120px; float: left; border-radius: 50%; margin-right: 25px;">
+                            <img src="/uploads/avatars/{{ $user->avatar }}" style="width: 120px; height: 120px; float: left; border-radius: 50%; margin-right: 25px;">
                             <h4>{{ $user->name }}</h4>
                             <hr>
 

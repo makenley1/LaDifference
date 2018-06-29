@@ -38,7 +38,6 @@ class CustomerController extends Controller
             'checkin'=> 'required',
             'lname'=> 'required',
             'fname'=> 'required',
-            'mname'=> 'required',
             'checkout'=> 'required',
             'contact'=> 'required',
             'gender'=> 'required',
@@ -52,7 +51,6 @@ class CustomerController extends Controller
        $user = new Customer;
        $user->lname = $request['lname'];
        $user->fname = $request['fname'];
-       $user->mname = $request['mname'];
        $user->gender = $request['gender'];
        $user->dob = $request['dob'];
        $user->address = $request['address'];
@@ -76,7 +74,7 @@ class CustomerController extends Controller
        $data = array('title'=> 'Merci pour la réservation avec MyHotel.',
               'content'=> 'Chers clients, merci de nous avoir. s\'il vous plaît cliquez sur le lien ci-dessous pour votre code qr '.route('reservation',['customer_id'=> $reserve->customer_id, 'flag'=> $reserve->flag]),
               'email'=> $request['email'],
-              'name'=> $request['lname']. ''. $request['fname']. ''. $request['mname']
+              'name'=> $request['lname']. ''. $request['fname']
 
               );
 

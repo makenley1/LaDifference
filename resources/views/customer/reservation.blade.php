@@ -27,7 +27,7 @@
 		<ul>
 			<li>Nom de famille: {{$reservation->customer->lname}}</li>
 			<li>Prénom: {{$reservation->customer->fname}}</li>
-			<li>Deuxième nom: {{$reservation->customer->mname}}</li>
+			
 			<li>Sexe: {{$reservation->customer->gender}}</li>
 			<li>Date de naissance: {{$reservation->customer->dob}}</li>
 			<li>Adresse: {{$reservation->customer->address}}</li>

@@ -1,3 +1,6 @@
+/*Serveur online*/
+--php artisan serve --host=0.0.0.0 --port=8000
+
 ALTER TABLE products CHANGE id objectID INT(11) NOT NULL AUTO_INCREMENT;
 ALTER products FOREIGN KEY (objectID) REFERENCES products;
 ALTER TABLE products ADD FOREIGN KEY (objectID) REFERENCES products(id);
