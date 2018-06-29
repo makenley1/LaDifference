@@ -36,11 +36,11 @@ class Product extends Model
 
     public function getScoutKey()
     {
-        return $this->email;
+        return $this->id;
     }
     
     public function searchableAs()
     {
-        return 'product';
+        return 'Products_index';
     }
 }
