@@ -48,22 +48,16 @@
 				</p>
 				<div class="rating1">
 					<ul class="stars" style="letter-spacing: 1px;">
-						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+						<?php
+							for ($i=1; $i <= $product->star ; $i++) {
+								echo '<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>';
+							}
+						?>
 					</ul>
 				</div>
 				<div class="description">
 					<h5 class="capitalyze">{{ $product->adresse}} </h5>
 					
-				</div>
-				<div class="color-quality">
-					<div class="color-quality-right">
-						<h5>Etoile : {{ $product->star }}</h5>
-						
-					</div>
 				</div>
 				<div class="occasional">
 					<div class="clearfix"> </div>

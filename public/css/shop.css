@@ -841,7 +841,7 @@ button.shoe-cart:hover {
     text-transform: capitalize;
     font-size: 23px;
     color: #fb383b;
-    margin: 0;
+    margin: 14px;
     letter-spacing: 1px;
     font-weight: 600;
     float: left;

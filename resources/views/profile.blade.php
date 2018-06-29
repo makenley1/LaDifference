@@ -53,27 +53,21 @@
                               <div class="form-group row">
                               </div>
                               <div class="form-group row">
-                                <label for="name" class="col-4 col-form-label">Nom Complet</label> 
+                                <label for="name" class="col-4 col-form-label">Nom</label> 
                                 <div class="col-8">
                                   <input id="name" name="name" placeholder="{{Auth::user()->name}}" class="form-control here" type="text">
                                 </div>
                               </div>
                               <div class="form-group row">
-                                <label for="lastname" class="col-4 col-form-label">Nom</label> 
+                                <label for="lastname" class="col-4 col-form-label">Pr&eacute;nom</label> 
                                 <div class="col-8">
-                                  <input id="lastname" name="lastname" placeholder="{{Auth::user()->l_name}}" class="form-control here" type="text">
+                                  <input id="lastname" name="lastname" placeholder="{{Auth::user()->f_name}}" class="form-control here" type="text">
                                 </div>
                               </div>
                               <div class="form-group row">
-                                <label for="text" class="col-4 col-form-label">Nick Name*</label> 
+                                <label for="email" class="col-4 col-form-label">Email</label> 
                                 <div class="col-8">
-                                  <input id="text" name="text" placeholder="Nick Name" class="form-control here" required="required" type="text">
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                <label for="email" class="col-4 col-form-label">Email*</label> 
-                                <div class="col-8">
-                                  <input id="email" name="email" placeholder="{{Auth::user()->email}}" class="form-control here" required="required" type="text">
+                                  <input id="email" name="email" placeholder="{{Auth::user()->email}}" class="form-control here" type="text">
                                 </div>
                               </div>
                               <div class="form-group row">
@@ -83,15 +77,9 @@
                                 </div>
                               </div>
                               <div class="form-group row">
-                                <label for="publicinfo" class="col-4 col-form-label">Public Info</label> 
+                                <label for="newpass" class="col-4 col-form-label">Mot de passe</label> 
                                 <div class="col-8">
-                                  <textarea id="publicinfo" name="publicinfo" cols="40" rows="4" class="form-control"></textarea>
-                                </div>
-                              </div>
-                              <div class="form-group row">
-                                <label for="newpass" class="col-4 col-form-label">New Password</label> 
-                                <div class="col-8">
-                                  <input id="newpass" name="newpass" placeholder="New Password" class="form-control here" type="text">
+                                  <input id="newpass" name="newpass" placeholder="Laissez vide pour garder le même" class="form-control here" type="text">
                                 </div>
                               </div> 
                               <div class="form-group row">
