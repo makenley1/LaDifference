@@ -31,7 +31,7 @@
           <ul>
             @foreach ($departement as $Departement)
             <li>
-                <input type="checkbox" class="checked">
+                <!-- <input type="checkbox" class="checked"> -->
                 <a href=" {{ route('landing-page', ['Departement' => $Departement->slug]) }} "> <span class="span notranslate">{{ $Departement -> nom }}</span> </a>
             </li> 
             @endforeach              
@@ -124,7 +124,7 @@
                       <div class="grid_meta">
                         <div class="product_price">
                           <div class="grid-price ">
-                            <span class="money ">{{ $product->montant }} HTG</span>
+                            <span class="money ">{{ $product->slug }}</span>
                           </div>
                         </div>
                         <ul class="stars">
