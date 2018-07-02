@@ -1,4 +1,16 @@
 <div class="small-top">
+
+      @if (\Session::has('success'))
+        <div class="alert alert-success">
+          <p style="text-align: center;" >{{ \Session::get('success') }}</p>
+        </div><br />
+       @endif
+       @if (\Session::has('failure'))
+        <div class="alert alert-danger">
+          <p style="text-align: center;">{{ \Session::get('failure') }}</p>
+        </div><br />
+       @endif
+
   <div class="container">
     <div class="row">
       <div class="col-lg-4  ">

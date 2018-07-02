@@ -19,7 +19,7 @@ class NewsletterController extends Controller
             Newsletter::subscribePending($request->email);
             return redirect('/')->with('success', 'Merci de vous abonner !!!');
         }
-        return redirect('/')->with('failure', 'Désolé! Vous avez déjà inscrit...');
+        return redirect('/')->with('failure', 'Désolé! ce compte existe déjà...');
             
     }
 }

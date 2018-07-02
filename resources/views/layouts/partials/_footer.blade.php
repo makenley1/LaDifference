@@ -2,19 +2,6 @@
 	<!-- /newsletter-->
 	<div class="newsletter_w3layouts_agile">
 
-
-		@if (\Session::has('success'))
-	      <div class="alert alert-success">
-	        <p>{{ \Session::get('success') }}</p>
-	      </div><br />
-	     @endif
-	     @if (\Session::has('failure'))
-	      <div class="alert alert-danger">
-	        <p>{{ \Session::get('failure') }}</p>
-	      </div><br />
-	     @endif
-
-		
 	    <div class="col-sm-6 newsleft">
 	    	<h3>S'inscrire aux Newsletters !!!</h3>
 	    </div>

@@ -124,7 +124,7 @@
                       <div class="grid_meta">
                         <div class="product_price">
                           <div class="grid-price ">
-                            <span class="money ">{{ $product->slug }}</span>
+                            <span class="money notranslate">{{ $product->slug }}</span>
                           </div>
                         </div>
                         <ul class="stars">
