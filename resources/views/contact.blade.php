@@ -26,7 +26,7 @@
               <input type="email" name="email" placeholder="Mail" required="">
             </div>
             <div class="col-md-6 col-sm-6 contact_left_grid">
-              <input type="text" name="Telephone" placeholder="Telephone" required="">
+              <input type="text" name="Telephone" placeholder="Telephone : xxxxxxxx" pattern="[0-9]{8}" required="">
               <input type="text" name="subject" placeholder="Sujet" required="">
             </div>
             <div class="clearfix"> </div>

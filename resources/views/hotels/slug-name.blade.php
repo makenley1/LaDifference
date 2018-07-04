@@ -185,11 +185,10 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">HTG 3490.00</span>
+												<span class="money ">el-rancho</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -234,12 +233,10 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">HTG 2765.00</span>
+												<span class="money ">mariott</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -283,11 +280,10 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">HTG 4300.00</span>
+												<span class="money ">royal-oasis</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">
-											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
 											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
@@ -332,7 +328,7 @@
 									<div class="grid_meta">
 										<div class="product_price">
 											<div class="grid-price ">
-												<span class="money ">HTG 1740.00</span>
+												<span class="money ">villa-therese</span>
 											</div>
 										</div>
 										<ul class="stars" style="letter-spacing: 1px;">

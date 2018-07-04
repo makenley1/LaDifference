@@ -3,7 +3,7 @@
 	<div class="newsletter_w3layouts_agile">
 
 	    <div class="col-sm-6 newsleft">
-	    	<h3>S'inscrire aux Newsletters !!!</h3>
+	    	<h3>S'inscrire aux Bulletins !!!</h3>
 	    </div>
 	   
 	    <div class="col-sm-6 newsright">

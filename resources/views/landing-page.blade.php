@@ -137,15 +137,10 @@
                           
                       </div>
                       <div class="shoe single-item hvr-outline-out">
-                        <form action="#" method="post">
-                          <input type="hidden" name="cmd" value="_cart">
-                          <input type="hidden" name="add" value="1">
-                          <input type="hidden" name="shoe_item" value="Bella Toes">
-                          <input type="hidden" name="amount" value="675.00">
-                          <button type="submit" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs"></i></button>
+                        
+                          <button type="submt" class="shoe-cart pshoe-cart"><i class="fab fa-vuejs"></i></button>
 
                           <a href="#" data-toggle="modal" data-target="#myModal1"></a>
-                        </form>
 
                       </div>
                     </div>

@@ -120,7 +120,7 @@ body{
 					</div>
 					<div class="form-group">
 						<label>Contact</label>
-						<input type="text" name="contact" class="form-control" required="">
+						<input type="tel" name="contact" class="form-control" id="tel" pattern="^[0-9]{8}$" required="">
 					</div>
 					<div class="form-group">
 						<label>Sexe</label>
@@ -341,7 +341,7 @@ body{
       	}
       	var d = new Date();
       	var date = d.getFullYear() + "-" +0+parseInt( d.getUTCMonth() + 1 )   + "-" + d.getDate();
-      	if(checkin < date){
+      	if(checkin > date){
       		alert("Désolé, s'il vous plaît choisir la date actuelle ou future pour la réservation");
       		return false;
       	}

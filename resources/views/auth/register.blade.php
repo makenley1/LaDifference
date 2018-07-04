@@ -22,7 +22,7 @@
           
           <div class="field form-group{{ $errors->has('name') ? ' has-error' : '' }}">
             <i class="fa fa-user"></i>
-            <input id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Nom" required autofocus>
+            <input id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Nom" pattern="[A-Z a-z]+" required autofocus>
 
             @if ($errors->has('name'))
                  <span class="help-block">
@@ -33,7 +33,7 @@
           
           <div class="field form-group{{ $errors->has('f_name') ? ' has-error' : '' }}">
             <i class="fa fa-user"></i>
-            <input id="f_name" type="text" name="f_name" value="{{ old('f_name') }}" placeholder="Prénom" required autofocus>
+            <input id="f_name" type="text" name="f_name" value="{{ old('f_name') }}" placeholder="Prénom" pattern="[A-Z a-z]+" required autofocus>
 
             @if ($errors->has('f_name'))
                  <span class="help-block">

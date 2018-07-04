@@ -22,7 +22,7 @@
       </div>
        
       <div class="col-lg-3 offset-lg-5">
-        <div class="social-icon"> <a target="_blank" href="#" class="fab fa-facebook"></a> <a target="_blank" href="#" class=" fab fa-twitter"></a> <a target="_blank" href="#" class=" fab fa-google-plus"></a> <a target="_blank" href="#" class=" fab fa-linkedin"></a> <a target="_blank" href="#" class=" fab fa-youtube"></a> </div>
+        <div class="social-icon"> <a href="#" class="fab fa-facebook"></a> <a href="#" class=" fab fa-twitter"></a> <a href="#" class=" fab fa-google-plus"></a> <a href="#" class=" fab fa-linkedin"></a> <a href="#" class=" fab fa-youtube"></a> </div>
       </div>
     </div>
   </div>      
@@ -47,7 +47,7 @@
       <div class="col-md-6 col-lg-3 ml-auto admin-bar hidden-sm-down">
         <nav class="nav nav-inline">
           <li class="dropdown">
-            <a href="{{ route('logout') }}" class="dropdown-toggle" data-toggle="dropdown">{{ Auth::user()->name }}</a>
+            <a href="{{ route('logout') }}" class="dropdown-toggle notranslate" data-toggle="dropdown">{{ Auth::user()->name }}</a>
 
             <ul class="dropdown-menu" style="background-color: currentColor;">
               <li><a href="{{ url('/profile') }} ">Profile</a></li>
