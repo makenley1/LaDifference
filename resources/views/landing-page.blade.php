@@ -1,7 +1,7 @@
 @extends('layouts/app')        
 
 @section('style')
-  <link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property="" />
+  <link rel="stylesheet" href="css/shop.css">
 @stop
 
 @section('content')
